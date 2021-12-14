@@ -1,0 +1,28 @@
+.PHONY:
+	all clean fclean re
+
+NAME		= ex03
+
+CC 			= clang++
+CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
+RM 			= rm -rf
+
+HEADERS		= Fixed.hpp Point.hpp
+SRCS		= main.cpp Fixed.cpp Point.cpp bsp.cpp
+OBJS		= $(SRCS:.cpp=.o)
+
+%.o		: %.cpp
+	$(CC) $(CFLAGS) $< -o $@
+
+$(NAME)	: $(OBJS)
+	$(CC) $(OBJS) -o $(NAME)
+
+all 		: $(NAME)
+
+clean:
+			$(RM) $(OBJS)
+
+fclean:		clean
+			$(RM) $(NAME)
+
+re:			fclean $(NAME)
