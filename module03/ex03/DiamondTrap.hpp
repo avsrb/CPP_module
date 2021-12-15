@@ -3,9 +3,19 @@
 
 #include "FragTrap.hpp"
 
-class DiamondTrap
+class DiamondTrap : public ScavTrap, public FragTrap
 {
+private:
+	std::string m_name;
+public:
+	DiamondTrap();
+	~DiamondTrap();
+	DiamondTrap(std::string name);
+	DiamondTrap(const DiamondTrap &D);
+	DiamondTrap& operator=(const DiamondTrap &D);
 
+	void	attack(std::string const &target);
+	void	whoAmI(void);
 };
 
 

@@ -26,7 +26,7 @@ public:
 	int					getMHitpoints() const;
 	int					getMEnergyPoints() const;
 	int					getMAttackDamage() const;
-	void				attack(std::string const &target);
+	virtual void		attack(std::string const &target);
 	void				takeDamage(unsigned int amount);
 	void				beRepaired(unsigned int amount);
 };

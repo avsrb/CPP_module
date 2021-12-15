@@ -4,7 +4,7 @@
 NAME		= ex03
 
 CC 			= clang++
-CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
+CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98 -Wshadow -Wno-shadow
 RM 			= rm -rf
 
 HEADERS		= ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
