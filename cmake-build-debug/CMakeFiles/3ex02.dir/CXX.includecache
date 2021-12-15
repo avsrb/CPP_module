@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mshmelly/21/CPP_module/module03/ex02/ClapTrap.cpp
+ClapTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex02/ClapTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex02/ClapTrap.hpp
+iostream
+-
+string
+-
+
+/Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.cpp
+FragTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.hpp
+ScavTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex02/ScavTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex02/ScavTrap.cpp
+ScavTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex02/ScavTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex02/ScavTrap.hpp
+ClapTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex02/ClapTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex02/main.cpp
+FragTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.hpp
+

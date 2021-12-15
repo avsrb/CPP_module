@@ -86,10 +86,10 @@
 		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex02/ClapTrap.hpp">
 			<Option target="3ex02"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex02/FlapTrap.cpp">
+		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.cpp">
 			<Option target="3ex02"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex02/FlapTrap.hpp">
+		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.hpp">
 			<Option target="3ex02"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex02/Makefile">

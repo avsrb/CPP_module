@@ -13,5 +13,6 @@ add_executable(3ex02
 		module03/ex02/Makefile
 		module03/ex02/ScavTrap.cpp
 		module03/ex02/ScavTrap.hpp
-		module03/ex02/FlapTrap.cpp
-		module03/ex02/FlapTrap.hpp)
+		module03/ex02/FragTrap.cpp module03/ex02/FragTrap.hpp)
+
+#add_executable(test test/shoot.cpp)

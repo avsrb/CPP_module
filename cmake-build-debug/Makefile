@@ -153,29 +153,29 @@ module03/ex02/ClapTrap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ClapTrap.cpp.s
 .PHONY : module03/ex02/ClapTrap.cpp.s
 
-module03/ex02/FlapTrap.o: module03/ex02/FlapTrap.cpp.o
-.PHONY : module03/ex02/FlapTrap.o
+module03/ex02/FragTrap.o: module03/ex02/FragTrap.cpp.o
+.PHONY : module03/ex02/FragTrap.o
 
 # target to build an object file
-module03/ex02/FlapTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o
-.PHONY : module03/ex02/FlapTrap.cpp.o
+module03/ex02/FragTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o
+.PHONY : module03/ex02/FragTrap.cpp.o
 
-module03/ex02/FlapTrap.i: module03/ex02/FlapTrap.cpp.i
-.PHONY : module03/ex02/FlapTrap.i
+module03/ex02/FragTrap.i: module03/ex02/FragTrap.cpp.i
+.PHONY : module03/ex02/FragTrap.i
 
 # target to preprocess a source file
-module03/ex02/FlapTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.i
-.PHONY : module03/ex02/FlapTrap.cpp.i
+module03/ex02/FragTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.i
+.PHONY : module03/ex02/FragTrap.cpp.i
 
-module03/ex02/FlapTrap.s: module03/ex02/FlapTrap.cpp.s
-.PHONY : module03/ex02/FlapTrap.s
+module03/ex02/FragTrap.s: module03/ex02/FragTrap.cpp.s
+.PHONY : module03/ex02/FragTrap.s
 
 # target to generate assembly for a file
-module03/ex02/FlapTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.s
-.PHONY : module03/ex02/FlapTrap.cpp.s
+module03/ex02/FragTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.s
+.PHONY : module03/ex02/FragTrap.cpp.s
 
 module03/ex02/ScavTrap.o: module03/ex02/ScavTrap.cpp.o
 .PHONY : module03/ex02/ScavTrap.o
@@ -237,9 +237,9 @@ help:
 	@echo "... module03/ex02/ClapTrap.o"
 	@echo "... module03/ex02/ClapTrap.i"
 	@echo "... module03/ex02/ClapTrap.s"
-	@echo "... module03/ex02/FlapTrap.o"
-	@echo "... module03/ex02/FlapTrap.i"
-	@echo "... module03/ex02/FlapTrap.s"
+	@echo "... module03/ex02/FragTrap.o"
+	@echo "... module03/ex02/FragTrap.i"
+	@echo "... module03/ex02/FragTrap.s"
 	@echo "... module03/ex02/ScavTrap.o"
 	@echo "... module03/ex02/ScavTrap.i"
 	@echo "... module03/ex02/ScavTrap.s"

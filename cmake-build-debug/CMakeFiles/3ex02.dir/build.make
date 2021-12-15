@@ -105,25 +105,25 @@ CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module03/ex02/ScavTrap.cpp -o CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.s
 
-CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o: CMakeFiles/3ex02.dir/flags.make
-CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o: ../module03/ex02/FlapTrap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o -c /Users/mshmelly/21/CPP_module/module03/ex02/FlapTrap.cpp
+CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o: CMakeFiles/3ex02.dir/flags.make
+CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o: ../module03/ex02/FragTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o -c /Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.cpp
 
-CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module03/ex02/FlapTrap.cpp > CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.i
+CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.cpp > CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.i
 
-CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module03/ex02/FlapTrap.cpp -o CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.s
+CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module03/ex02/FragTrap.cpp -o CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.s
 
 # Object files for target 3ex02
 3ex02_OBJECTS = \
 "CMakeFiles/3ex02.dir/module03/ex02/ClapTrap.cpp.o" \
 "CMakeFiles/3ex02.dir/module03/ex02/main.cpp.o" \
 "CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.o" \
-"CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o"
+"CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o"
 
 # External object files for target 3ex02
 3ex02_EXTERNAL_OBJECTS =
@@ -131,7 +131,7 @@ CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.s: cmake_force
 3ex02: CMakeFiles/3ex02.dir/module03/ex02/ClapTrap.cpp.o
 3ex02: CMakeFiles/3ex02.dir/module03/ex02/main.cpp.o
 3ex02: CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.o
-3ex02: CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o
+3ex02: CMakeFiles/3ex02.dir/module03/ex02/FragTrap.cpp.o
 3ex02: CMakeFiles/3ex02.dir/build.make
 3ex02: CMakeFiles/3ex02.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 3ex02"
