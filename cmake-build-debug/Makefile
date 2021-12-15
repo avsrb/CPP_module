@@ -117,89 +117,113 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3ex01
+# Target rules for targets named 3ex02
 
 # Build rule for target.
-3ex01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3ex01
-.PHONY : 3ex01
+3ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3ex02
+.PHONY : 3ex02
 
 # fast build rule for target.
-3ex01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/build
-.PHONY : 3ex01/fast
+3ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/build
+.PHONY : 3ex02/fast
 
-module03/ex01/ClapTrap.o: module03/ex01/ClapTrap.cpp.o
-.PHONY : module03/ex01/ClapTrap.o
-
-# target to build an object file
-module03/ex01/ClapTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/ClapTrap.cpp.o
-.PHONY : module03/ex01/ClapTrap.cpp.o
-
-module03/ex01/ClapTrap.i: module03/ex01/ClapTrap.cpp.i
-.PHONY : module03/ex01/ClapTrap.i
-
-# target to preprocess a source file
-module03/ex01/ClapTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/ClapTrap.cpp.i
-.PHONY : module03/ex01/ClapTrap.cpp.i
-
-module03/ex01/ClapTrap.s: module03/ex01/ClapTrap.cpp.s
-.PHONY : module03/ex01/ClapTrap.s
-
-# target to generate assembly for a file
-module03/ex01/ClapTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/ClapTrap.cpp.s
-.PHONY : module03/ex01/ClapTrap.cpp.s
-
-module03/ex01/ScavTrap.o: module03/ex01/ScavTrap.cpp.o
-.PHONY : module03/ex01/ScavTrap.o
+module03/ex02/ClapTrap.o: module03/ex02/ClapTrap.cpp.o
+.PHONY : module03/ex02/ClapTrap.o
 
 # target to build an object file
-module03/ex01/ScavTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/ScavTrap.cpp.o
-.PHONY : module03/ex01/ScavTrap.cpp.o
+module03/ex02/ClapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ClapTrap.cpp.o
+.PHONY : module03/ex02/ClapTrap.cpp.o
 
-module03/ex01/ScavTrap.i: module03/ex01/ScavTrap.cpp.i
-.PHONY : module03/ex01/ScavTrap.i
+module03/ex02/ClapTrap.i: module03/ex02/ClapTrap.cpp.i
+.PHONY : module03/ex02/ClapTrap.i
 
 # target to preprocess a source file
-module03/ex01/ScavTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/ScavTrap.cpp.i
-.PHONY : module03/ex01/ScavTrap.cpp.i
+module03/ex02/ClapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ClapTrap.cpp.i
+.PHONY : module03/ex02/ClapTrap.cpp.i
 
-module03/ex01/ScavTrap.s: module03/ex01/ScavTrap.cpp.s
-.PHONY : module03/ex01/ScavTrap.s
+module03/ex02/ClapTrap.s: module03/ex02/ClapTrap.cpp.s
+.PHONY : module03/ex02/ClapTrap.s
 
 # target to generate assembly for a file
-module03/ex01/ScavTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/ScavTrap.cpp.s
-.PHONY : module03/ex01/ScavTrap.cpp.s
+module03/ex02/ClapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ClapTrap.cpp.s
+.PHONY : module03/ex02/ClapTrap.cpp.s
 
-module03/ex01/main.o: module03/ex01/main.cpp.o
-.PHONY : module03/ex01/main.o
+module03/ex02/FlapTrap.o: module03/ex02/FlapTrap.cpp.o
+.PHONY : module03/ex02/FlapTrap.o
 
 # target to build an object file
-module03/ex01/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/main.cpp.o
-.PHONY : module03/ex01/main.cpp.o
+module03/ex02/FlapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.o
+.PHONY : module03/ex02/FlapTrap.cpp.o
 
-module03/ex01/main.i: module03/ex01/main.cpp.i
-.PHONY : module03/ex01/main.i
+module03/ex02/FlapTrap.i: module03/ex02/FlapTrap.cpp.i
+.PHONY : module03/ex02/FlapTrap.i
 
 # target to preprocess a source file
-module03/ex01/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/main.cpp.i
-.PHONY : module03/ex01/main.cpp.i
+module03/ex02/FlapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.i
+.PHONY : module03/ex02/FlapTrap.cpp.i
 
-module03/ex01/main.s: module03/ex01/main.cpp.s
-.PHONY : module03/ex01/main.s
+module03/ex02/FlapTrap.s: module03/ex02/FlapTrap.cpp.s
+.PHONY : module03/ex02/FlapTrap.s
 
 # target to generate assembly for a file
-module03/ex01/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/module03/ex01/main.cpp.s
-.PHONY : module03/ex01/main.cpp.s
+module03/ex02/FlapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/FlapTrap.cpp.s
+.PHONY : module03/ex02/FlapTrap.cpp.s
+
+module03/ex02/ScavTrap.o: module03/ex02/ScavTrap.cpp.o
+.PHONY : module03/ex02/ScavTrap.o
+
+# target to build an object file
+module03/ex02/ScavTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.o
+.PHONY : module03/ex02/ScavTrap.cpp.o
+
+module03/ex02/ScavTrap.i: module03/ex02/ScavTrap.cpp.i
+.PHONY : module03/ex02/ScavTrap.i
+
+# target to preprocess a source file
+module03/ex02/ScavTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.i
+.PHONY : module03/ex02/ScavTrap.cpp.i
+
+module03/ex02/ScavTrap.s: module03/ex02/ScavTrap.cpp.s
+.PHONY : module03/ex02/ScavTrap.s
+
+# target to generate assembly for a file
+module03/ex02/ScavTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/ScavTrap.cpp.s
+.PHONY : module03/ex02/ScavTrap.cpp.s
+
+module03/ex02/main.o: module03/ex02/main.cpp.o
+.PHONY : module03/ex02/main.o
+
+# target to build an object file
+module03/ex02/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/main.cpp.o
+.PHONY : module03/ex02/main.cpp.o
+
+module03/ex02/main.i: module03/ex02/main.cpp.i
+.PHONY : module03/ex02/main.i
+
+# target to preprocess a source file
+module03/ex02/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/main.cpp.i
+.PHONY : module03/ex02/main.cpp.i
+
+module03/ex02/main.s: module03/ex02/main.cpp.s
+.PHONY : module03/ex02/main.s
+
+# target to generate assembly for a file
+module03/ex02/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex02.dir/build.make CMakeFiles/3ex02.dir/module03/ex02/main.cpp.s
+.PHONY : module03/ex02/main.cpp.s
 
 # Help Target
 help:
@@ -209,16 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3ex01"
-	@echo "... module03/ex01/ClapTrap.o"
-	@echo "... module03/ex01/ClapTrap.i"
-	@echo "... module03/ex01/ClapTrap.s"
-	@echo "... module03/ex01/ScavTrap.o"
-	@echo "... module03/ex01/ScavTrap.i"
-	@echo "... module03/ex01/ScavTrap.s"
-	@echo "... module03/ex01/main.o"
-	@echo "... module03/ex01/main.i"
-	@echo "... module03/ex01/main.s"
+	@echo "... 3ex02"
+	@echo "... module03/ex02/ClapTrap.o"
+	@echo "... module03/ex02/ClapTrap.i"
+	@echo "... module03/ex02/ClapTrap.s"
+	@echo "... module03/ex02/FlapTrap.o"
+	@echo "... module03/ex02/FlapTrap.i"
+	@echo "... module03/ex02/FlapTrap.s"
+	@echo "... module03/ex02/ScavTrap.o"
+	@echo "... module03/ex02/ScavTrap.i"
+	@echo "... module03/ex02/ScavTrap.s"
+	@echo "... module03/ex02/main.o"
+	@echo "... module03/ex02/main.i"
+	@echo "... module03/ex02/main.s"
 .PHONY : help
 
 
