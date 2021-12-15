@@ -5,7 +5,9 @@ CMakeFiles/3ex01.dir/module03/ex01/ClapTrap.cpp.o: \
  ../module03/ex01/ClapTrap.cpp \
  ../module03/ex01/ClapTrap.hpp
 CMakeFiles/3ex01.dir/module03/ex01/ScavTrap.cpp.o: \
- ../module03/ex01/ScavTrap.cpp
+ ../module03/ex01/ClapTrap.hpp \
+ ../module03/ex01/ScavTrap.cpp \
+ ../module03/ex01/ScavTrap.hpp
 CMakeFiles/3ex01.dir/module03/ex01/main.cpp.o: \
  ../module03/ex01/ClapTrap.hpp \
  ../module03/ex01/main.cpp

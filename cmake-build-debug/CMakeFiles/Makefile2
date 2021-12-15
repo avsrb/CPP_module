@@ -64,7 +64,6 @@ CMAKE_BINARY_DIR = /Users/mshmelly/21/CPP_module/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/3ex01.dir/all
-all: CMakeFiles/3ex00.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +72,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/3ex01.dir/clean
-clean: CMakeFiles/3ex00.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,7 +81,7 @@ clean: CMakeFiles/3ex00.dir/clean
 CMakeFiles/3ex01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7 "Built target 3ex01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target 3ex01"
 .PHONY : CMakeFiles/3ex01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -101,32 +99,6 @@ CMakeFiles/3ex01.dir/rule: cmake_check_build_system
 CMakeFiles/3ex01.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/clean
 .PHONY : CMakeFiles/3ex01.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/3ex00.dir
-
-# All Build rule for target.
-CMakeFiles/3ex00.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target 3ex00"
-.PHONY : CMakeFiles/3ex00.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/3ex00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3ex00.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/3ex00.dir/rule
-
-# Convenience name for target.
-3ex00: CMakeFiles/3ex00.dir/rule
-.PHONY : 3ex00
-
-# clean rule for target.
-CMakeFiles/3ex00.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/clean
-.PHONY : CMakeFiles/3ex00.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

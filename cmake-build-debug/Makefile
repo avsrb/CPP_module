@@ -129,67 +129,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex01.dir/build.make CMakeFiles/3ex01.dir/build
 .PHONY : 3ex01/fast
 
-#=============================================================================
-# Target rules for targets named 3ex00
-
-# Build rule for target.
-3ex00: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3ex00
-.PHONY : 3ex00
-
-# fast build rule for target.
-3ex00/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/build
-.PHONY : 3ex00/fast
-
-module03/ex00/ClapTrap.o: module03/ex00/ClapTrap.cpp.o
-.PHONY : module03/ex00/ClapTrap.o
-
-# target to build an object file
-module03/ex00/ClapTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/module03/ex00/ClapTrap.cpp.o
-.PHONY : module03/ex00/ClapTrap.cpp.o
-
-module03/ex00/ClapTrap.i: module03/ex00/ClapTrap.cpp.i
-.PHONY : module03/ex00/ClapTrap.i
-
-# target to preprocess a source file
-module03/ex00/ClapTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/module03/ex00/ClapTrap.cpp.i
-.PHONY : module03/ex00/ClapTrap.cpp.i
-
-module03/ex00/ClapTrap.s: module03/ex00/ClapTrap.cpp.s
-.PHONY : module03/ex00/ClapTrap.s
-
-# target to generate assembly for a file
-module03/ex00/ClapTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/module03/ex00/ClapTrap.cpp.s
-.PHONY : module03/ex00/ClapTrap.cpp.s
-
-module03/ex00/main.o: module03/ex00/main.cpp.o
-.PHONY : module03/ex00/main.o
-
-# target to build an object file
-module03/ex00/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/module03/ex00/main.cpp.o
-.PHONY : module03/ex00/main.cpp.o
-
-module03/ex00/main.i: module03/ex00/main.cpp.i
-.PHONY : module03/ex00/main.i
-
-# target to preprocess a source file
-module03/ex00/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/module03/ex00/main.cpp.i
-.PHONY : module03/ex00/main.cpp.i
-
-module03/ex00/main.s: module03/ex00/main.cpp.s
-.PHONY : module03/ex00/main.s
-
-# target to generate assembly for a file
-module03/ex00/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex00.dir/build.make CMakeFiles/3ex00.dir/module03/ex00/main.cpp.s
-.PHONY : module03/ex00/main.cpp.s
-
 module03/ex01/ClapTrap.o: module03/ex01/ClapTrap.cpp.o
 .PHONY : module03/ex01/ClapTrap.o
 
@@ -270,14 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3ex00"
 	@echo "... 3ex01"
-	@echo "... module03/ex00/ClapTrap.o"
-	@echo "... module03/ex00/ClapTrap.i"
-	@echo "... module03/ex00/ClapTrap.s"
-	@echo "... module03/ex00/main.o"
-	@echo "... module03/ex00/main.i"
-	@echo "... module03/ex00/main.s"
 	@echo "... module03/ex01/ClapTrap.o"
 	@echo "... module03/ex01/ClapTrap.i"
 	@echo "... module03/ex01/ClapTrap.s"

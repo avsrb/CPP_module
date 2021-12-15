@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/mshmelly/21/CPP_module/module03/ex01/ClapTrap.cpp
+ClapTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex01/ClapTrap.hpp
+
 /Users/mshmelly/21/CPP_module/module03/ex01/ClapTrap.hpp
 iostream
 -
@@ -13,6 +17,12 @@ string
 -
 
 /Users/mshmelly/21/CPP_module/module03/ex01/ScavTrap.cpp
+ScavTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex01/ScavTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex01/ScavTrap.hpp
+ClapTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex01/ClapTrap.hpp
 
 /Users/mshmelly/21/CPP_module/module03/ex01/main.cpp
 ClapTrap.hpp

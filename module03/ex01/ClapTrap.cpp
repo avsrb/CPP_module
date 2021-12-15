@@ -120,3 +120,12 @@ void ClapTrap::beRepaired(unsigned int amount)
 					<<	std::endl;
 	m_hitpoints += amount;
 }
+
+ClapTrap::ClapTrap(const std::string &mName, int mHitpoints, int mEnergyPoints, int mAttackDamage) : m_name(mName),
+																									 m_hitpoints(
+																											 mHitpoints),
+																									 m_energyPoints(
+																											 mEnergyPoints),
+																									 m_attackDamage(
+																											 mAttackDamage)
+{}
