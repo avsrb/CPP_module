@@ -35,7 +35,7 @@ DiamondTrap &DiamondTrap::operator=(const DiamondTrap &D)
 	return (*this);
 }
 
-DiamondTrap::DiamondTrap(std::string name) :	ClapTrap(100, 50, 30, name),
+DiamondTrap::DiamondTrap(std::string name) :	ClapTrap(100, 50, 30, name + "_clap_name"),
 												ScavTrap(name),
 												FragTrap(name),
 												m_name(name)
