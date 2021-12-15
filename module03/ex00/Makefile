@@ -1,14 +1,14 @@
 .PHONY:
 	all clean fclean re
 
-NAME		= ex01
+NAME		= ex00
 
 CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		= ClapTrap.hpp ScavTrap.hpp
-SRCS		= main.cpp ClapTrap.cpp ScavTrap.cpp
+HEADERS		= ClapTrap.hpp
+SRCS		= main.cpp ClapTrap.cpp
 OBJS		= $(SRCS:.cpp=.o)
 
 %.o		: %.cpp

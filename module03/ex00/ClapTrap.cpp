@@ -1,6 +1,6 @@
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap() :	m_name("RandomChumpClapTrap"),
+ClapTrap::ClapTrap() :	m_name("Noname"),
 						m_hitpoints(10),
 						m_energyPoints(10),
 						m_attackDamage(0)

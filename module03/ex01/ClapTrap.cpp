@@ -1,6 +1,6 @@
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap() :	m_name("RandomChumpClapTrap"),
+ClapTrap::ClapTrap() :	m_name("Noname"),
 						m_hitpoints(10),
 						m_energyPoints(10),
 						m_attackDamage(0)
@@ -121,11 +121,15 @@ void ClapTrap::beRepaired(unsigned int amount)
 	m_hitpoints += amount;
 }
 
-ClapTrap::ClapTrap(const std::string &mName, int mHitpoints, int mEnergyPoints, int mAttackDamage) : m_name(mName),
-																									 m_hitpoints(
-																											 mHitpoints),
-																									 m_energyPoints(
-																											 mEnergyPoints),
-																									 m_attackDamage(
-																											 mAttackDamage)
-{}
+ClapTrap::ClapTrap(	int mHitpoints,
+					int mEnergyPoints,
+					int mAttackDamage,
+					std::string mName) : m_name(mName),
+										m_hitpoints(mHitpoints),
+										 m_energyPoints(
+										mEnergyPoints),
+										 m_attackDamage(
+										mAttackDamage)
+{
+	std::cout << "Protected constructor called, " << m_name << " created! (ClapTrap)" << std::endl;
+}

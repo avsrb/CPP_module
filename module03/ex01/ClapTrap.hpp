@@ -6,7 +6,10 @@
 
 class ClapTrap {
 protected:
-	ClapTrap(const std::string &mName, int mHitpoints, int mEnergyPoints, int mAttackDamage);
+	ClapTrap(	int mHitpoints,
+						int mEnergyPoints,
+						int mAttackDamage,
+						std::string mName = "RandomChump");
 	std::string		m_name;
 	int				m_hitpoints;
 	int				m_energyPoints;
