@@ -7,7 +7,7 @@ FragTrap::FragTrap():	ClapTrap(100, 100, 30)
 
 FragTrap::~FragTrap()
 {
-	std::cout << "Destructor called, " << m_name << " vanished! (FragTrap)" << std::endl;
+	std::cout << "Destructor called, \033[31m" << m_name << "\033[0m vanished! (FragTrap)" << std::endl;
 }
 
 FragTrap::FragTrap(const FragTrap &F) : ClapTrap(F.m_hitpoints, F.m_energyPoints, F.m_attackDamage, F.m_name)
@@ -28,10 +28,10 @@ FragTrap &FragTrap::operator=(const FragTrap &F)
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
 {
-	std::cout << "Constructor with a name called, " << m_name << " created! (FragTrap)" << std::endl;
+	std::cout << "Constructor with a name called, \033[32m" << m_name << "\033[0m created! (FragTrap)" << std::endl;
 }
 
-void FragTrap::highFiveGuys(void)
+void FragTrap::highFivesGuys(void)
 {
-	std::cout << "Guys HIGH FIVE TIME!" << std::endl;
+	std::cout << "Guys HIGH FIVES TIME!" << std::endl;
 }

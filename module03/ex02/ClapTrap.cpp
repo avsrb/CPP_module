@@ -131,5 +131,5 @@ ClapTrap::ClapTrap(	int mHitpoints,
 										 m_attackDamage(
 										mAttackDamage)
 {
-	std::cout << "Protected constructor called, " << m_name << " created! (ClapTrap)" << std::endl;
+	std::cout << "Protected constructor called, \033[32m" << m_name << "\033[0m created! (ClapTrap)" << std::endl;
 }

@@ -7,8 +7,8 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		= ClapTrap.hpp ScavTrap.hpp FlapTrap.hpp
-SRCS		= main.cpp ClapTrap.cpp ScavTrap.cpp FlapTrap.cpp
+HEADERS		= ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
+SRCS		= main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 OBJS		= $(SRCS:.cpp=.o)
 
 %.o		: %.cpp
