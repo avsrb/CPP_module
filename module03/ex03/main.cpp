@@ -19,5 +19,6 @@ int	main()
 		D.attack(B.getMName());
 		B.takeDamage(D.getMAttackDamage());
 		D.beRepaired(D.getMEnergyPoints());
+		D.whoAmI();
 	return (0);
 }

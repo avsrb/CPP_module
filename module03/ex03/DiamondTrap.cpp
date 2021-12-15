@@ -50,6 +50,6 @@ void DiamondTrap::attack(const std::string &target)
 
 void DiamondTrap::whoAmI(void)
 {
-	std::cout << m_name << "(DiamondTrap) | " << ClapTrap::m_name << "(ClapTrap)" << std::endl;;
+	std::cout << "\033[35m" << m_name << "\033[0m(DiamondTrap) | \033[35m" << ClapTrap::m_name << "\033[0m(ClapTrap)" << std::endl;;
 }
 
