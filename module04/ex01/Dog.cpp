@@ -1,6 +1,6 @@
 #include "Dog.hpp"
 
-Dog::Dog() : Animal("Dog"), m_brain(new Brain())
+Dog::Dog() : Animal("Dog")
 {
 	std::cout << "Default constructor called! (Dog)" << std::endl;
 }
@@ -8,10 +8,9 @@ Dog::Dog() : Animal("Dog"), m_brain(new Brain())
 Dog::~Dog()
 {
 	std::cout << "Destructor called! (Dog)" << std::endl;
-	delete m_brain;
 }
 
-Dog::Dog(const Dog &D) : Animal(D.m_type), m_brain(new Brain)
+Dog::Dog(const Dog &D) : Animal(D.m_type)
 {
 	std::cout << "Copy constructor called! (Dog)" << std::endl;
 }
