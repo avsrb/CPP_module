@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="3ex03">
-				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/3ex03" prefix_auto="0" extension_auto="0"/>
+			<Target title="4ex00">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/4ex00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 3ex03"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 4ex00"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="3ex03/fast">
-				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/3ex03" prefix_auto="0" extension_auto="0"/>
+			<Target title="4ex00/fast">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/4ex00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,42 +73,45 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 3ex03/fast"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 4ex00/fast"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/ClapTrap.cpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/Animal.cpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/ClapTrap.hpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/Animal.hpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/DiamondTrap.cpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/Cat.cpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/DiamondTrap.hpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/Cat.hpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/FragTrap.cpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/Dog.cpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/FragTrap.hpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/Dog.hpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/Makefile">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.cpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/ScavTrap.cpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/ScavTrap.hpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.cpp">
+			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/main.cpp">
-			<Option target="3ex03"/>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.hpp">
+			<Option target="4ex00"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/main.cpp">
+			<Option target="4ex00"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -117,137 +117,161 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3ex03
+# Target rules for targets named 4ex00
 
 # Build rule for target.
-3ex03: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3ex03
-.PHONY : 3ex03
+4ex00: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4ex00
+.PHONY : 4ex00
 
 # fast build rule for target.
-3ex03/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/build
-.PHONY : 3ex03/fast
+4ex00/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/build
+.PHONY : 4ex00/fast
 
-module03/ex03/ClapTrap.o: module03/ex03/ClapTrap.cpp.o
-.PHONY : module03/ex03/ClapTrap.o
-
-# target to build an object file
-module03/ex03/ClapTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ClapTrap.cpp.o
-.PHONY : module03/ex03/ClapTrap.cpp.o
-
-module03/ex03/ClapTrap.i: module03/ex03/ClapTrap.cpp.i
-.PHONY : module03/ex03/ClapTrap.i
-
-# target to preprocess a source file
-module03/ex03/ClapTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ClapTrap.cpp.i
-.PHONY : module03/ex03/ClapTrap.cpp.i
-
-module03/ex03/ClapTrap.s: module03/ex03/ClapTrap.cpp.s
-.PHONY : module03/ex03/ClapTrap.s
-
-# target to generate assembly for a file
-module03/ex03/ClapTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ClapTrap.cpp.s
-.PHONY : module03/ex03/ClapTrap.cpp.s
-
-module03/ex03/DiamondTrap.o: module03/ex03/DiamondTrap.cpp.o
-.PHONY : module03/ex03/DiamondTrap.o
+module04/ex00/Animal.o: module04/ex00/Animal.cpp.o
+.PHONY : module04/ex00/Animal.o
 
 # target to build an object file
-module03/ex03/DiamondTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/DiamondTrap.cpp.o
-.PHONY : module03/ex03/DiamondTrap.cpp.o
+module04/ex00/Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Animal.cpp.o
+.PHONY : module04/ex00/Animal.cpp.o
 
-module03/ex03/DiamondTrap.i: module03/ex03/DiamondTrap.cpp.i
-.PHONY : module03/ex03/DiamondTrap.i
+module04/ex00/Animal.i: module04/ex00/Animal.cpp.i
+.PHONY : module04/ex00/Animal.i
 
 # target to preprocess a source file
-module03/ex03/DiamondTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/DiamondTrap.cpp.i
-.PHONY : module03/ex03/DiamondTrap.cpp.i
+module04/ex00/Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Animal.cpp.i
+.PHONY : module04/ex00/Animal.cpp.i
 
-module03/ex03/DiamondTrap.s: module03/ex03/DiamondTrap.cpp.s
-.PHONY : module03/ex03/DiamondTrap.s
+module04/ex00/Animal.s: module04/ex00/Animal.cpp.s
+.PHONY : module04/ex00/Animal.s
 
 # target to generate assembly for a file
-module03/ex03/DiamondTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/DiamondTrap.cpp.s
-.PHONY : module03/ex03/DiamondTrap.cpp.s
+module04/ex00/Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Animal.cpp.s
+.PHONY : module04/ex00/Animal.cpp.s
 
-module03/ex03/FragTrap.o: module03/ex03/FragTrap.cpp.o
-.PHONY : module03/ex03/FragTrap.o
+module04/ex00/Cat.o: module04/ex00/Cat.cpp.o
+.PHONY : module04/ex00/Cat.o
 
 # target to build an object file
-module03/ex03/FragTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/FragTrap.cpp.o
-.PHONY : module03/ex03/FragTrap.cpp.o
+module04/ex00/Cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Cat.cpp.o
+.PHONY : module04/ex00/Cat.cpp.o
 
-module03/ex03/FragTrap.i: module03/ex03/FragTrap.cpp.i
-.PHONY : module03/ex03/FragTrap.i
+module04/ex00/Cat.i: module04/ex00/Cat.cpp.i
+.PHONY : module04/ex00/Cat.i
 
 # target to preprocess a source file
-module03/ex03/FragTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/FragTrap.cpp.i
-.PHONY : module03/ex03/FragTrap.cpp.i
+module04/ex00/Cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Cat.cpp.i
+.PHONY : module04/ex00/Cat.cpp.i
 
-module03/ex03/FragTrap.s: module03/ex03/FragTrap.cpp.s
-.PHONY : module03/ex03/FragTrap.s
+module04/ex00/Cat.s: module04/ex00/Cat.cpp.s
+.PHONY : module04/ex00/Cat.s
 
 # target to generate assembly for a file
-module03/ex03/FragTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/FragTrap.cpp.s
-.PHONY : module03/ex03/FragTrap.cpp.s
+module04/ex00/Cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Cat.cpp.s
+.PHONY : module04/ex00/Cat.cpp.s
 
-module03/ex03/ScavTrap.o: module03/ex03/ScavTrap.cpp.o
-.PHONY : module03/ex03/ScavTrap.o
+module04/ex00/Dog.o: module04/ex00/Dog.cpp.o
+.PHONY : module04/ex00/Dog.o
 
 # target to build an object file
-module03/ex03/ScavTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ScavTrap.cpp.o
-.PHONY : module03/ex03/ScavTrap.cpp.o
+module04/ex00/Dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Dog.cpp.o
+.PHONY : module04/ex00/Dog.cpp.o
 
-module03/ex03/ScavTrap.i: module03/ex03/ScavTrap.cpp.i
-.PHONY : module03/ex03/ScavTrap.i
+module04/ex00/Dog.i: module04/ex00/Dog.cpp.i
+.PHONY : module04/ex00/Dog.i
 
 # target to preprocess a source file
-module03/ex03/ScavTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ScavTrap.cpp.i
-.PHONY : module03/ex03/ScavTrap.cpp.i
+module04/ex00/Dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Dog.cpp.i
+.PHONY : module04/ex00/Dog.cpp.i
 
-module03/ex03/ScavTrap.s: module03/ex03/ScavTrap.cpp.s
-.PHONY : module03/ex03/ScavTrap.s
+module04/ex00/Dog.s: module04/ex00/Dog.cpp.s
+.PHONY : module04/ex00/Dog.s
 
 # target to generate assembly for a file
-module03/ex03/ScavTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ScavTrap.cpp.s
-.PHONY : module03/ex03/ScavTrap.cpp.s
+module04/ex00/Dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/Dog.cpp.s
+.PHONY : module04/ex00/Dog.cpp.s
 
-module03/ex03/main.o: module03/ex03/main.cpp.o
-.PHONY : module03/ex03/main.o
+module04/ex00/WrongAnimal.o: module04/ex00/WrongAnimal.cpp.o
+.PHONY : module04/ex00/WrongAnimal.o
 
 # target to build an object file
-module03/ex03/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/main.cpp.o
-.PHONY : module03/ex03/main.cpp.o
+module04/ex00/WrongAnimal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/WrongAnimal.cpp.o
+.PHONY : module04/ex00/WrongAnimal.cpp.o
 
-module03/ex03/main.i: module03/ex03/main.cpp.i
-.PHONY : module03/ex03/main.i
+module04/ex00/WrongAnimal.i: module04/ex00/WrongAnimal.cpp.i
+.PHONY : module04/ex00/WrongAnimal.i
 
 # target to preprocess a source file
-module03/ex03/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/main.cpp.i
-.PHONY : module03/ex03/main.cpp.i
+module04/ex00/WrongAnimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/WrongAnimal.cpp.i
+.PHONY : module04/ex00/WrongAnimal.cpp.i
 
-module03/ex03/main.s: module03/ex03/main.cpp.s
-.PHONY : module03/ex03/main.s
+module04/ex00/WrongAnimal.s: module04/ex00/WrongAnimal.cpp.s
+.PHONY : module04/ex00/WrongAnimal.s
 
 # target to generate assembly for a file
-module03/ex03/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/main.cpp.s
-.PHONY : module03/ex03/main.cpp.s
+module04/ex00/WrongAnimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/WrongAnimal.cpp.s
+.PHONY : module04/ex00/WrongAnimal.cpp.s
+
+module04/ex00/WrongCat.o: module04/ex00/WrongCat.cpp.o
+.PHONY : module04/ex00/WrongCat.o
+
+# target to build an object file
+module04/ex00/WrongCat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/WrongCat.cpp.o
+.PHONY : module04/ex00/WrongCat.cpp.o
+
+module04/ex00/WrongCat.i: module04/ex00/WrongCat.cpp.i
+.PHONY : module04/ex00/WrongCat.i
+
+# target to preprocess a source file
+module04/ex00/WrongCat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/WrongCat.cpp.i
+.PHONY : module04/ex00/WrongCat.cpp.i
+
+module04/ex00/WrongCat.s: module04/ex00/WrongCat.cpp.s
+.PHONY : module04/ex00/WrongCat.s
+
+# target to generate assembly for a file
+module04/ex00/WrongCat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/WrongCat.cpp.s
+.PHONY : module04/ex00/WrongCat.cpp.s
+
+module04/ex00/main.o: module04/ex00/main.cpp.o
+.PHONY : module04/ex00/main.o
+
+# target to build an object file
+module04/ex00/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/main.cpp.o
+.PHONY : module04/ex00/main.cpp.o
+
+module04/ex00/main.i: module04/ex00/main.cpp.i
+.PHONY : module04/ex00/main.i
+
+# target to preprocess a source file
+module04/ex00/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/main.cpp.i
+.PHONY : module04/ex00/main.cpp.i
+
+module04/ex00/main.s: module04/ex00/main.cpp.s
+.PHONY : module04/ex00/main.s
+
+# target to generate assembly for a file
+module04/ex00/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/main.cpp.s
+.PHONY : module04/ex00/main.cpp.s
 
 # Help Target
 help:
@@ -257,22 +281,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3ex03"
-	@echo "... module03/ex03/ClapTrap.o"
-	@echo "... module03/ex03/ClapTrap.i"
-	@echo "... module03/ex03/ClapTrap.s"
-	@echo "... module03/ex03/DiamondTrap.o"
-	@echo "... module03/ex03/DiamondTrap.i"
-	@echo "... module03/ex03/DiamondTrap.s"
-	@echo "... module03/ex03/FragTrap.o"
-	@echo "... module03/ex03/FragTrap.i"
-	@echo "... module03/ex03/FragTrap.s"
-	@echo "... module03/ex03/ScavTrap.o"
-	@echo "... module03/ex03/ScavTrap.i"
-	@echo "... module03/ex03/ScavTrap.s"
-	@echo "... module03/ex03/main.o"
-	@echo "... module03/ex03/main.i"
-	@echo "... module03/ex03/main.s"
+	@echo "... 4ex00"
+	@echo "... module04/ex00/Animal.o"
+	@echo "... module04/ex00/Animal.i"
+	@echo "... module04/ex00/Animal.s"
+	@echo "... module04/ex00/Cat.o"
+	@echo "... module04/ex00/Cat.i"
+	@echo "... module04/ex00/Cat.s"
+	@echo "... module04/ex00/Dog.o"
+	@echo "... module04/ex00/Dog.i"
+	@echo "... module04/ex00/Dog.s"
+	@echo "... module04/ex00/WrongAnimal.o"
+	@echo "... module04/ex00/WrongAnimal.i"
+	@echo "... module04/ex00/WrongAnimal.s"
+	@echo "... module04/ex00/WrongCat.o"
+	@echo "... module04/ex00/WrongCat.i"
+	@echo "... module04/ex00/WrongCat.s"
+	@echo "... module04/ex00/main.o"
+	@echo "... module04/ex00/main.i"
+	@echo "... module04/ex00/main.s"
 .PHONY : help
 
 

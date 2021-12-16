@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.cpp
+WrongAnimal.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp
+
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp
+string
+-
+iostream
+-
+
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.cpp
+WrongCat.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.hpp
+
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.hpp
+WrongAnimal.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp
+
