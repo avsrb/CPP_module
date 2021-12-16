@@ -4,7 +4,7 @@
 class Cat : public Animal
 {
 private:
-
+	Brain *m_brain;
 public:
 	Cat();
 	virtual ~Cat();

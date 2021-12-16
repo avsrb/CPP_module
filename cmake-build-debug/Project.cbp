@@ -155,40 +155,10 @@
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/main.cpp">
 			<Option target="4ex00"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Animal.cpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Animal.hpp">
-			<Option target="4ex01"/>
-		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Brain.cpp">
 			<Option target="4ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Brain.hpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Cat.cpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Cat.hpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Dog.cpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Dog.hpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongAnimal.cpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongAnimal.hpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongCat.cpp">
-			<Option target="4ex01"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongCat.hpp">
 			<Option target="4ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/main.cpp">

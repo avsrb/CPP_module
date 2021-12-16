@@ -1,6 +1,6 @@
 #include "Cat.hpp"
 
-Cat::Cat() : Animal("Cat")
+Cat::Cat() : Animal("Cat"), m_brain(new Brain())
 {
 	std::cout << "Default constructor called! (Cat)" << std::endl;
 }
@@ -10,7 +10,7 @@ Cat::~Cat()
 	std::cout << "Destructor called! (Cat)" << std::endl;
 }
 
-Cat::Cat(const Cat &C) : Animal(C.m_type)
+Cat::Cat(const Cat &C) : Animal(C.m_type), m_Brain(new Brain(*C.m_Brain))
 {
 	std::cout << "Copy constructor called! (Cat)" << std::endl;
 }
