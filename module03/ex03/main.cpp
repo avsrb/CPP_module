@@ -3,22 +3,22 @@
 int	main()
 {
 
-		ClapTrap A("first");
-		ScavTrap B("second");
-		FragTrap C("third");
-		DiamondTrap D("fourth");
+		ClapTrap Tom("Tom");
+		ScavTrap Liza("Liza");
+		FragTrap Max("Max");
+		DiamondTrap Denis("Denis");
 
-		B.guardGate();
-		B.attack(A.getMName());
-		A.takeDamage(B.getMAttackDamage());
-		A.beRepaired(A.getMEnergyPoints());
-		C.highFivesGuys();
-		D.highFivesGuys();
-		D.attack(C.getMName());
-		C.takeDamage(D.getMAttackDamage());
-		D.attack(B.getMName());
-		B.takeDamage(D.getMAttackDamage());
-		D.beRepaired(D.getMEnergyPoints());
-		D.whoAmI();
+		Liza.guardGate();
+		Liza.attack(Tom.getMName());
+		Tom.takeDamage(Liza.getMAttackDamage());
+		Tom.beRepaired(Tom.getMEnergyPoints());
+		Max.highFivesGuys();
+		Denis.highFivesGuys();
+		Denis.attack(Max.getMName());
+		Max.takeDamage(Denis.getMAttackDamage());
+		Denis.attack(Liza.getMName());
+		Liza.takeDamage(Denis.getMAttackDamage());
+		Denis.beRepaired(Denis.getMEnergyPoints());
+		Denis.whoAmI();
 	return (0);
 }

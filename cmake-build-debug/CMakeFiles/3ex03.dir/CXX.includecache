@@ -12,10 +12,6 @@ iostream
 string
 -
 
-/Users/mshmelly/21/CPP_module/module03/ex03/DiamondTrap.cpp
-DiamondTrap.hpp
-/Users/mshmelly/21/CPP_module/module03/ex03/DiamondTrap.hpp
-
 /Users/mshmelly/21/CPP_module/module03/ex03/DiamondTrap.hpp
 FragTrap.hpp
 /Users/mshmelly/21/CPP_module/module03/ex03/FragTrap.hpp
@@ -27,4 +23,8 @@ ScavTrap.hpp
 /Users/mshmelly/21/CPP_module/module03/ex03/ScavTrap.hpp
 ClapTrap.hpp
 /Users/mshmelly/21/CPP_module/module03/ex03/ClapTrap.hpp
+
+/Users/mshmelly/21/CPP_module/module03/ex03/main.cpp
+DiamondTrap.hpp
+/Users/mshmelly/21/CPP_module/module03/ex03/DiamondTrap.hpp
 

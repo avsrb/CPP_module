@@ -15,14 +15,17 @@
 #		module03/ex02/ScavTrap.hpp
 #		module03/ex02/FragTrap.cpp
 #		module03/ex02/FragTrap.hpp)
-add_executable(3ex03
-		module03/ex03/ClapTrap.cpp
-		module03/ex03/ClapTrap.hpp
-		module03/ex03/main.cpp
-		module03/ex03/Makefile
-		module03/ex03/ScavTrap.cpp
-		module03/ex03/ScavTrap.hpp
-		module03/ex03/FragTrap.cpp
-		module03/ex03/FragTrap.hpp module03/ex03/DiamondTrap.cpp module03/ex03/DiamondTrap.hpp)
+#add_executable(3ex03
+#		module03/ex03/ClapTrap.cpp
+#		module03/ex03/ClapTrap.hpp
+#		module03/ex03/main.cpp
+#		module03/ex03/Makefile
+#		module03/ex03/ScavTrap.cpp
+#		module03/ex03/ScavTrap.hpp
+#		module03/ex03/FragTrap.cpp
+#		module03/ex03/FragTrap.hpp module03/ex03/DiamondTrap.cpp module03/ex03/DiamondTrap.hpp)
+
+add_executable(4ex00 )
+
 
 #add_executable(test test/shoot.cpp)
