@@ -7,6 +7,7 @@ Dog::Dog() : Animal("Dog"), m_brain(new Brain());
 
 Dog::~Dog()
 {
+	delete m_brain;
 	std::cout << "Destructor called! (Dog)" << std::endl;
 }
 

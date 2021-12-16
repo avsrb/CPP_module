@@ -286,6 +286,30 @@ module04/ex00/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex00/main.cpp.s
 .PHONY : module04/ex00/main.cpp.s
 
+module04/ex01/Animal.o: module04/ex01/Animal.cpp.o
+.PHONY : module04/ex01/Animal.o
+
+# target to build an object file
+module04/ex01/Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Animal.cpp.o
+.PHONY : module04/ex01/Animal.cpp.o
+
+module04/ex01/Animal.i: module04/ex01/Animal.cpp.i
+.PHONY : module04/ex01/Animal.i
+
+# target to preprocess a source file
+module04/ex01/Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Animal.cpp.i
+.PHONY : module04/ex01/Animal.cpp.i
+
+module04/ex01/Animal.s: module04/ex01/Animal.cpp.s
+.PHONY : module04/ex01/Animal.s
+
+# target to generate assembly for a file
+module04/ex01/Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Animal.cpp.s
+.PHONY : module04/ex01/Animal.cpp.s
+
 module04/ex01/Brain.o: module04/ex01/Brain.cpp.o
 .PHONY : module04/ex01/Brain.o
 
@@ -309,6 +333,102 @@ module04/ex01/Brain.s: module04/ex01/Brain.cpp.s
 module04/ex01/Brain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Brain.cpp.s
 .PHONY : module04/ex01/Brain.cpp.s
+
+module04/ex01/Cat.o: module04/ex01/Cat.cpp.o
+.PHONY : module04/ex01/Cat.o
+
+# target to build an object file
+module04/ex01/Cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Cat.cpp.o
+.PHONY : module04/ex01/Cat.cpp.o
+
+module04/ex01/Cat.i: module04/ex01/Cat.cpp.i
+.PHONY : module04/ex01/Cat.i
+
+# target to preprocess a source file
+module04/ex01/Cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Cat.cpp.i
+.PHONY : module04/ex01/Cat.cpp.i
+
+module04/ex01/Cat.s: module04/ex01/Cat.cpp.s
+.PHONY : module04/ex01/Cat.s
+
+# target to generate assembly for a file
+module04/ex01/Cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Cat.cpp.s
+.PHONY : module04/ex01/Cat.cpp.s
+
+module04/ex01/Dog.o: module04/ex01/Dog.cpp.o
+.PHONY : module04/ex01/Dog.o
+
+# target to build an object file
+module04/ex01/Dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Dog.cpp.o
+.PHONY : module04/ex01/Dog.cpp.o
+
+module04/ex01/Dog.i: module04/ex01/Dog.cpp.i
+.PHONY : module04/ex01/Dog.i
+
+# target to preprocess a source file
+module04/ex01/Dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Dog.cpp.i
+.PHONY : module04/ex01/Dog.cpp.i
+
+module04/ex01/Dog.s: module04/ex01/Dog.cpp.s
+.PHONY : module04/ex01/Dog.s
+
+# target to generate assembly for a file
+module04/ex01/Dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/Dog.cpp.s
+.PHONY : module04/ex01/Dog.cpp.s
+
+module04/ex01/WrongAnimal.o: module04/ex01/WrongAnimal.cpp.o
+.PHONY : module04/ex01/WrongAnimal.o
+
+# target to build an object file
+module04/ex01/WrongAnimal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/WrongAnimal.cpp.o
+.PHONY : module04/ex01/WrongAnimal.cpp.o
+
+module04/ex01/WrongAnimal.i: module04/ex01/WrongAnimal.cpp.i
+.PHONY : module04/ex01/WrongAnimal.i
+
+# target to preprocess a source file
+module04/ex01/WrongAnimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/WrongAnimal.cpp.i
+.PHONY : module04/ex01/WrongAnimal.cpp.i
+
+module04/ex01/WrongAnimal.s: module04/ex01/WrongAnimal.cpp.s
+.PHONY : module04/ex01/WrongAnimal.s
+
+# target to generate assembly for a file
+module04/ex01/WrongAnimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/WrongAnimal.cpp.s
+.PHONY : module04/ex01/WrongAnimal.cpp.s
+
+module04/ex01/WrongCat.o: module04/ex01/WrongCat.cpp.o
+.PHONY : module04/ex01/WrongCat.o
+
+# target to build an object file
+module04/ex01/WrongCat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/WrongCat.cpp.o
+.PHONY : module04/ex01/WrongCat.cpp.o
+
+module04/ex01/WrongCat.i: module04/ex01/WrongCat.cpp.i
+.PHONY : module04/ex01/WrongCat.i
+
+# target to preprocess a source file
+module04/ex01/WrongCat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/WrongCat.cpp.i
+.PHONY : module04/ex01/WrongCat.cpp.i
+
+module04/ex01/WrongCat.s: module04/ex01/WrongCat.cpp.s
+.PHONY : module04/ex01/WrongCat.s
+
+# target to generate assembly for a file
+module04/ex01/WrongCat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/module04/ex01/WrongCat.cpp.s
+.PHONY : module04/ex01/WrongCat.cpp.s
 
 module04/ex01/main.o: module04/ex01/main.cpp.o
 .PHONY : module04/ex01/main.o
@@ -362,9 +482,24 @@ help:
 	@echo "... module04/ex00/main.o"
 	@echo "... module04/ex00/main.i"
 	@echo "... module04/ex00/main.s"
+	@echo "... module04/ex01/Animal.o"
+	@echo "... module04/ex01/Animal.i"
+	@echo "... module04/ex01/Animal.s"
 	@echo "... module04/ex01/Brain.o"
 	@echo "... module04/ex01/Brain.i"
 	@echo "... module04/ex01/Brain.s"
+	@echo "... module04/ex01/Cat.o"
+	@echo "... module04/ex01/Cat.i"
+	@echo "... module04/ex01/Cat.s"
+	@echo "... module04/ex01/Dog.o"
+	@echo "... module04/ex01/Dog.i"
+	@echo "... module04/ex01/Dog.s"
+	@echo "... module04/ex01/WrongAnimal.o"
+	@echo "... module04/ex01/WrongAnimal.i"
+	@echo "... module04/ex01/WrongAnimal.s"
+	@echo "... module04/ex01/WrongCat.o"
+	@echo "... module04/ex01/WrongCat.i"
+	@echo "... module04/ex01/WrongCat.s"
 	@echo "... module04/ex01/main.o"
 	@echo "... module04/ex01/main.i"
 	@echo "... module04/ex01/main.s"

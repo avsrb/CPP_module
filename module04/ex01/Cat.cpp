@@ -7,6 +7,7 @@ Cat::Cat() : Animal("Cat"), m_brain(new Brain())
 
 Cat::~Cat()
 {
+	delete m_brain;
 	std::cout << "Destructor called! (Cat)" << std::endl;
 }
 

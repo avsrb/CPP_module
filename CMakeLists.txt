@@ -32,7 +32,13 @@ add_executable(4ex00	module04/ex00/main.cpp
 						module04/ex00/WrongCat.cpp
 						module04/ex00/WrongAnimal.cpp)
 add_executable(4ex01	module04/ex01/main.cpp
-		module04/ex01/Brain.cpp module04/ex01/Brain.hpp)
+						module04/ex01/Animal.cpp
+						module04/ex01/Dog.cpp
+						module04/ex01/Cat.cpp
+						module04/ex01/WrongCat.cpp
+						module04/ex01/WrongAnimal.cpp
+						module04/ex01/Brain.cpp
+						module04/ex01/Brain.hpp)
 
 
 #add_executable(test test/shoot.cpp)
