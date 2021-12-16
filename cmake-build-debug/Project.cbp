@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="4ex01">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/4ex01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 4ex01"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4ex01/fast">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/4ex01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 4ex01/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="4ex00">
 				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/4ex00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
@@ -112,6 +154,45 @@
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex00/main.cpp">
 			<Option target="4ex00"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Animal.cpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Animal.hpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Brain.cpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Brain.hpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Cat.cpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Cat.hpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Dog.cpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/Dog.hpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongAnimal.cpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongAnimal.hpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongCat.cpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/WrongCat.hpp">
+			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex01/main.cpp">
+			<Option target="4ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

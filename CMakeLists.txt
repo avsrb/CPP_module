@@ -25,7 +25,18 @@
 #		module03/ex03/FragTrap.cpp
 #		module03/ex03/FragTrap.hpp module03/ex03/DiamondTrap.cpp module03/ex03/DiamondTrap.hpp)
 
-add_executable(4ex00 module04/ex00/main.cpp module04/ex00/Animal.cpp module04/ex00/Dog.cpp  module04/ex00/Cat.cpp  module04/ex00/WrongCat.cpp  module04/ex00/WrongAnimal.cpp )
+add_executable(4ex00	module04/ex00/main.cpp
+						module04/ex00/Animal.cpp
+						module04/ex00/Dog.cpp
+						module04/ex00/Cat.cpp
+						module04/ex00/WrongCat.cpp
+						module04/ex00/WrongAnimal.cpp)
+add_executable(4ex01	module04/ex01/main.cpp
+						module04/ex01/Animal.cpp
+						module04/ex01/Dog.cpp
+						module04/ex01/Cat.cpp
+						module04/ex01/WrongCat.cpp
+						module04/ex01/WrongAnimal.cpp module04/ex01/Brain.cpp module04/ex01/Brain.hpp)
 
 
 #add_executable(test test/shoot.cpp)

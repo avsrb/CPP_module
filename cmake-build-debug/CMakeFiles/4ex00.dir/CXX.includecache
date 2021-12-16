@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/mshmelly/21/CPP_module/module04/ex00/Animal.hpp
+string
+-
+iostream
+-
+
+/Users/mshmelly/21/CPP_module/module04/ex00/Cat.hpp
+Animal.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/Animal.hpp
+
+/Users/mshmelly/21/CPP_module/module04/ex00/Dog.hpp
+Animal.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/Animal.hpp
+
 /Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.cpp
 WrongAnimal.hpp
 /Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp
@@ -23,4 +37,16 @@ WrongCat.hpp
 /Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.hpp
 WrongAnimal.hpp
 /Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp
+
+/Users/mshmelly/21/CPP_module/module04/ex00/main.cpp
+Animal.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/Animal.hpp
+Cat.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/Cat.hpp
+Dog.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/Dog.hpp
+WrongAnimal.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongAnimal.hpp
+WrongCat.hpp
+/Users/mshmelly/21/CPP_module/module04/ex00/WrongCat.hpp
 
