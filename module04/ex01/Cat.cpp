@@ -13,7 +13,7 @@ Cat::~Cat()
 
 Cat::Cat(const Cat &C) : Animal(C.m_type), m_brain(new Brain(*C.m_brain))
 {
-	std::cout << "Copy constructor called! (Cat)" << std::endl;
+	std::cout << "Copy constructor called! (Cat) " << std::endl;
 }
 
 Cat &Cat::operator=(const Cat &C)

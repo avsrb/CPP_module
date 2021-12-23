@@ -1,5 +1,4 @@
 #pragma once
-
 #include <string>
 #include <iostream>
 #include "Brain.hpp"
@@ -16,6 +15,7 @@ public:
 	Animal& operator=(const Animal &A);
 	const std::string	&getType() const;
 	virtual void 		makeSound() const;
+	void 				getAddr() const;
 };
 
 

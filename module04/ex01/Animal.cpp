@@ -37,3 +37,8 @@ void Animal::makeSound() const
 {
 	std::cout << "Make sound..." << std::endl;
 }
+
+void 	Animal::getAddr() const
+{
+	std::cout << this << std::endl;
+}
