@@ -11,7 +11,7 @@ Cat::~Cat()
 	std::cout << "Destructor called! (Cat)" << std::endl;
 }
 
-Cat::Cat(const Cat &C) : Animal(C.m_type), m_Brain(new Brain(*C.m_Brain))
+Cat::Cat(const Cat &C) : Animal(C.m_type), m_brain(new Brain(*C.m_brain))
 {
 	std::cout << "Copy constructor called! (Cat)" << std::endl;
 }

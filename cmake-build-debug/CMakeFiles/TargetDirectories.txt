@@ -1,4 +1,4 @@
-/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex01.dir
-/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex00.dir
+/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex01.dir
+/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex00.dir
