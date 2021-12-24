@@ -79,6 +79,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="4ex02">
+				<Option output="/Users/artem/Coding/21/CPP_module/cmake-build-debug/4ex02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artem/Coding/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 4ex02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4ex02/fast">
+				<Option output="/Users/artem/Coding/21/CPP_module/cmake-build-debug/4ex02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artem/Coding/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 4ex02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artem/Coding/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="4ex00">
 				<Option output="/Users/artem/Coding/21/CPP_module/cmake-build-debug/4ex00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/artem/Coding/21/CPP_module/cmake-build-debug"/>
@@ -193,6 +235,33 @@
 		</Unit>
 		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex01/main.cpp">
 			<Option target="4ex01"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.cpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.hpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.cpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.hpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Cat.cpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Cat.hpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Dog.cpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/Dog.hpp">
+			<Option target="4ex02"/>
+		</Unit>
+		<Unit filename="/Users/artem/Coding/21/CPP_module/module04/ex02/main.cpp">
+			<Option target="4ex02"/>
 		</Unit>
 		<Unit filename="/Users/artem/Coding/21/CPP_module/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

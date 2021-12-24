@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.hpp
+string
+-
+iostream
+-
+Brain.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.hpp
+
+/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.hpp
+iostream
+-
+
+/Users/artem/Coding/21/CPP_module/module04/ex02/Cat.hpp
+Animal.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.hpp
+
+/Users/artem/Coding/21/CPP_module/module04/ex02/Dog.hpp
+Animal.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.hpp
+Brain.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.hpp
+
+/Users/artem/Coding/21/CPP_module/module04/ex02/main.cpp
+Animal.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.hpp
+Cat.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Cat.hpp
+Dog.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Dog.hpp
+Brain.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.hpp
+

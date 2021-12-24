@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/artem/Coding/21/CPP_module/module04/ex01/Animal.cpp
+Animal.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex01/Animal.hpp
+
 /Users/artem/Coding/21/CPP_module/module04/ex01/Animal.hpp
 string
 -
@@ -14,13 +18,25 @@ iostream
 Brain.hpp
 /Users/artem/Coding/21/CPP_module/module04/ex01/Brain.hpp
 
+/Users/artem/Coding/21/CPP_module/module04/ex01/Brain.cpp
+Brain.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex01/Brain.hpp
+
 /Users/artem/Coding/21/CPP_module/module04/ex01/Brain.hpp
 iostream
 -
 
+/Users/artem/Coding/21/CPP_module/module04/ex01/Cat.cpp
+Cat.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex01/Cat.hpp
+
 /Users/artem/Coding/21/CPP_module/module04/ex01/Cat.hpp
 Animal.hpp
 /Users/artem/Coding/21/CPP_module/module04/ex01/Animal.hpp
+
+/Users/artem/Coding/21/CPP_module/module04/ex01/Dog.cpp
+Dog.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex01/Dog.hpp
 
 /Users/artem/Coding/21/CPP_module/module04/ex01/Dog.hpp
 Animal.hpp
@@ -28,11 +44,19 @@ Animal.hpp
 Brain.hpp
 /Users/artem/Coding/21/CPP_module/module04/ex01/Brain.hpp
 
+/Users/artem/Coding/21/CPP_module/module04/ex01/WrongAnimal.cpp
+WrongAnimal.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex01/WrongAnimal.hpp
+
 /Users/artem/Coding/21/CPP_module/module04/ex01/WrongAnimal.hpp
 string
 -
 iostream
 -
+
+/Users/artem/Coding/21/CPP_module/module04/ex01/WrongCat.cpp
+WrongCat.hpp
+/Users/artem/Coding/21/CPP_module/module04/ex01/WrongCat.hpp
 
 /Users/artem/Coding/21/CPP_module/module04/ex01/WrongCat.hpp
 WrongAnimal.hpp
