@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/artem/Coding/21/CPP_module/module04/ex00/WrongAnimal.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex00.dir/module04/ex00/WrongAnimal.cpp.o"
   "/Users/artem/Coding/21/CPP_module/module04/ex00/WrongCat.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex00.dir/module04/ex00/WrongCat.cpp.o"
   "/Users/artem/Coding/21/CPP_module/module04/ex00/main.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex00.dir/module04/ex00/main.cpp.o"
+  "/Users/artem/Coding/21/CPP_module/module04/ex03/main.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex00.dir/module04/ex03/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

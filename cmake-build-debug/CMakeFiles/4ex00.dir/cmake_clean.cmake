@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/4ex00.dir/module04/ex00/WrongAnimal.cpp.o"
   "CMakeFiles/4ex00.dir/module04/ex00/WrongCat.cpp.o"
   "CMakeFiles/4ex00.dir/module04/ex00/main.cpp.o"
+  "CMakeFiles/4ex00.dir/module04/ex03/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

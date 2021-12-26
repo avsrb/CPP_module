@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 4ex03
+
+# Build rule for target.
+4ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4ex03
+.PHONY : 4ex03
+
+# fast build rule for target.
+4ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/build
+.PHONY : 4ex03/fast
+
+#=============================================================================
 # Target rules for targets named 4ex01
 
 # Build rule for target.
@@ -587,6 +600,105 @@ module04/ex02/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex02.dir/build.make CMakeFiles/4ex02.dir/module04/ex02/main.cpp.s
 .PHONY : module04/ex02/main.cpp.s
 
+module04/ex03/AMateria.o: module04/ex03/AMateria.cpp.o
+.PHONY : module04/ex03/AMateria.o
+
+# target to build an object file
+module04/ex03/AMateria.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o
+.PHONY : module04/ex03/AMateria.cpp.o
+
+module04/ex03/AMateria.i: module04/ex03/AMateria.cpp.i
+.PHONY : module04/ex03/AMateria.i
+
+# target to preprocess a source file
+module04/ex03/AMateria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.i
+.PHONY : module04/ex03/AMateria.cpp.i
+
+module04/ex03/AMateria.s: module04/ex03/AMateria.cpp.s
+.PHONY : module04/ex03/AMateria.s
+
+# target to generate assembly for a file
+module04/ex03/AMateria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.s
+.PHONY : module04/ex03/AMateria.cpp.s
+
+module04/ex03/Cure.o: module04/ex03/Cure.cpp.o
+.PHONY : module04/ex03/Cure.o
+
+# target to build an object file
+module04/ex03/Cure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o
+.PHONY : module04/ex03/Cure.cpp.o
+
+module04/ex03/Cure.i: module04/ex03/Cure.cpp.i
+.PHONY : module04/ex03/Cure.i
+
+# target to preprocess a source file
+module04/ex03/Cure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.i
+.PHONY : module04/ex03/Cure.cpp.i
+
+module04/ex03/Cure.s: module04/ex03/Cure.cpp.s
+.PHONY : module04/ex03/Cure.s
+
+# target to generate assembly for a file
+module04/ex03/Cure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s
+.PHONY : module04/ex03/Cure.cpp.s
+
+module04/ex03/ICharacter.o: module04/ex03/ICharacter.cpp.o
+.PHONY : module04/ex03/ICharacter.o
+
+# target to build an object file
+module04/ex03/ICharacter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o
+.PHONY : module04/ex03/ICharacter.cpp.o
+
+module04/ex03/ICharacter.i: module04/ex03/ICharacter.cpp.i
+.PHONY : module04/ex03/ICharacter.i
+
+# target to preprocess a source file
+module04/ex03/ICharacter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.i
+.PHONY : module04/ex03/ICharacter.cpp.i
+
+module04/ex03/ICharacter.s: module04/ex03/ICharacter.cpp.s
+.PHONY : module04/ex03/ICharacter.s
+
+# target to generate assembly for a file
+module04/ex03/ICharacter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s
+.PHONY : module04/ex03/ICharacter.cpp.s
+
+module04/ex03/main.o: module04/ex03/main.cpp.o
+.PHONY : module04/ex03/main.o
+
+# target to build an object file
+module04/ex03/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex03/main.cpp.o
+.PHONY : module04/ex03/main.cpp.o
+
+module04/ex03/main.i: module04/ex03/main.cpp.i
+.PHONY : module04/ex03/main.i
+
+# target to preprocess a source file
+module04/ex03/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex03/main.cpp.i
+.PHONY : module04/ex03/main.cpp.i
+
+module04/ex03/main.s: module04/ex03/main.cpp.s
+.PHONY : module04/ex03/main.s
+
+# target to generate assembly for a file
+module04/ex03/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/module04/ex03/main.cpp.s
+.PHONY : module04/ex03/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -598,6 +710,7 @@ help:
 	@echo "... 4ex00"
 	@echo "... 4ex01"
 	@echo "... 4ex02"
+	@echo "... 4ex03"
 	@echo "... module04/ex00/Animal.o"
 	@echo "... module04/ex00/Animal.i"
 	@echo "... module04/ex00/Animal.s"
@@ -652,6 +765,18 @@ help:
 	@echo "... module04/ex02/main.o"
 	@echo "... module04/ex02/main.i"
 	@echo "... module04/ex02/main.s"
+	@echo "... module04/ex03/AMateria.o"
+	@echo "... module04/ex03/AMateria.i"
+	@echo "... module04/ex03/AMateria.s"
+	@echo "... module04/ex03/Cure.o"
+	@echo "... module04/ex03/Cure.i"
+	@echo "... module04/ex03/Cure.s"
+	@echo "... module04/ex03/ICharacter.o"
+	@echo "... module04/ex03/ICharacter.i"
+	@echo "... module04/ex03/ICharacter.s"
+	@echo "... module04/ex03/main.o"
+	@echo "... module04/ex03/main.i"
+	@echo "... module04/ex03/main.s"
 .PHONY : help
 
 

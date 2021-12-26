@@ -30,7 +30,7 @@ add_executable(4ex00	module04/ex00/main.cpp
 						module04/ex00/Dog.cpp
 						module04/ex00/Cat.cpp
 						module04/ex00/WrongCat.cpp
-						module04/ex00/WrongAnimal.cpp)
+						module04/ex00/WrongAnimal.cpp module04/ex03/main.cpp)
 add_executable(4ex01	module04/ex01/main.cpp
 						module04/ex01/Animal.cpp
 						module04/ex01/Dog.cpp
@@ -45,6 +45,8 @@ add_executable(4ex02	module04/ex02/main.cpp
 						module04/ex02/Cat.cpp
 						module04/ex02/Brain.cpp
 						module04/ex02/Brain.hpp)
+
+add_executable(4ex03 module04/ex03/main.cpp module04/ex03/AMateria.cpp module04/ex03/AMateria.hpp module04/ex03/ICharacter.cpp module04/ex03/ICharacter.hpp module04/ex03/Cure.cpp module04/ex03/Cure.hpp)
 
 
 #add_executable(test test/shoot.cpp)
