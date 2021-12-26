@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/artem/Coding/21/CPP_module/module04/ex02/Animal.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o"
-  "/Users/artem/Coding/21/CPP_module/module04/ex02/Brain.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o"
-  "/Users/artem/Coding/21/CPP_module/module04/ex02/Cat.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o"
-  "/Users/artem/Coding/21/CPP_module/module04/ex02/Dog.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o"
-  "/Users/artem/Coding/21/CPP_module/module04/ex02/main.cpp" "/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o"
+  "/Users/mshmelly/21/CPP_module/module04/ex02/Animal.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o"
+  "/Users/mshmelly/21/CPP_module/module04/ex02/Brain.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o"
+  "/Users/mshmelly/21/CPP_module/module04/ex02/Cat.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o"
+  "/Users/mshmelly/21/CPP_module/module04/ex02/Dog.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o"
+  "/Users/mshmelly/21/CPP_module/module04/ex02/main.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

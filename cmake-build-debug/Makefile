@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artem/Coding/21/CPP_module
+CMAKE_SOURCE_DIR = /Users/mshmelly/21/CPP_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artem/Coding/21/CPP_module/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mshmelly/21/CPP_module/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles /Users/artem/Coding/21/CPP_module/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles /Users/mshmelly/21/CPP_module/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : 4ex03/fast
 
 #=============================================================================
-# Target rules for targets named 4ex01
+# Target rules for targets named 3ex03
 
 # Build rule for target.
-4ex01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4ex01
-.PHONY : 4ex01
+3ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3ex03
+.PHONY : 3ex03
 
 # fast build rule for target.
-4ex01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/build
-.PHONY : 4ex01/fast
+3ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/build
+.PHONY : 3ex03/fast
 
 #=============================================================================
 # Target rules for targets named 4ex02
@@ -167,6 +167,139 @@ depend:
 4ex00/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex00.dir/build.make CMakeFiles/4ex00.dir/build
 .PHONY : 4ex00/fast
+
+#=============================================================================
+# Target rules for targets named 4ex01
+
+# Build rule for target.
+4ex01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4ex01
+.PHONY : 4ex01
+
+# fast build rule for target.
+4ex01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex01.dir/build.make CMakeFiles/4ex01.dir/build
+.PHONY : 4ex01/fast
+
+module03/ex03/ClapTrap.o: module03/ex03/ClapTrap.cpp.o
+.PHONY : module03/ex03/ClapTrap.o
+
+# target to build an object file
+module03/ex03/ClapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ClapTrap.cpp.o
+.PHONY : module03/ex03/ClapTrap.cpp.o
+
+module03/ex03/ClapTrap.i: module03/ex03/ClapTrap.cpp.i
+.PHONY : module03/ex03/ClapTrap.i
+
+# target to preprocess a source file
+module03/ex03/ClapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ClapTrap.cpp.i
+.PHONY : module03/ex03/ClapTrap.cpp.i
+
+module03/ex03/ClapTrap.s: module03/ex03/ClapTrap.cpp.s
+.PHONY : module03/ex03/ClapTrap.s
+
+# target to generate assembly for a file
+module03/ex03/ClapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ClapTrap.cpp.s
+.PHONY : module03/ex03/ClapTrap.cpp.s
+
+module03/ex03/DiamondTrap.o: module03/ex03/DiamondTrap.cpp.o
+.PHONY : module03/ex03/DiamondTrap.o
+
+# target to build an object file
+module03/ex03/DiamondTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/DiamondTrap.cpp.o
+.PHONY : module03/ex03/DiamondTrap.cpp.o
+
+module03/ex03/DiamondTrap.i: module03/ex03/DiamondTrap.cpp.i
+.PHONY : module03/ex03/DiamondTrap.i
+
+# target to preprocess a source file
+module03/ex03/DiamondTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/DiamondTrap.cpp.i
+.PHONY : module03/ex03/DiamondTrap.cpp.i
+
+module03/ex03/DiamondTrap.s: module03/ex03/DiamondTrap.cpp.s
+.PHONY : module03/ex03/DiamondTrap.s
+
+# target to generate assembly for a file
+module03/ex03/DiamondTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/DiamondTrap.cpp.s
+.PHONY : module03/ex03/DiamondTrap.cpp.s
+
+module03/ex03/FragTrap.o: module03/ex03/FragTrap.cpp.o
+.PHONY : module03/ex03/FragTrap.o
+
+# target to build an object file
+module03/ex03/FragTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/FragTrap.cpp.o
+.PHONY : module03/ex03/FragTrap.cpp.o
+
+module03/ex03/FragTrap.i: module03/ex03/FragTrap.cpp.i
+.PHONY : module03/ex03/FragTrap.i
+
+# target to preprocess a source file
+module03/ex03/FragTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/FragTrap.cpp.i
+.PHONY : module03/ex03/FragTrap.cpp.i
+
+module03/ex03/FragTrap.s: module03/ex03/FragTrap.cpp.s
+.PHONY : module03/ex03/FragTrap.s
+
+# target to generate assembly for a file
+module03/ex03/FragTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/FragTrap.cpp.s
+.PHONY : module03/ex03/FragTrap.cpp.s
+
+module03/ex03/ScavTrap.o: module03/ex03/ScavTrap.cpp.o
+.PHONY : module03/ex03/ScavTrap.o
+
+# target to build an object file
+module03/ex03/ScavTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ScavTrap.cpp.o
+.PHONY : module03/ex03/ScavTrap.cpp.o
+
+module03/ex03/ScavTrap.i: module03/ex03/ScavTrap.cpp.i
+.PHONY : module03/ex03/ScavTrap.i
+
+# target to preprocess a source file
+module03/ex03/ScavTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ScavTrap.cpp.i
+.PHONY : module03/ex03/ScavTrap.cpp.i
+
+module03/ex03/ScavTrap.s: module03/ex03/ScavTrap.cpp.s
+.PHONY : module03/ex03/ScavTrap.s
+
+# target to generate assembly for a file
+module03/ex03/ScavTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/ScavTrap.cpp.s
+.PHONY : module03/ex03/ScavTrap.cpp.s
+
+module03/ex03/main.o: module03/ex03/main.cpp.o
+.PHONY : module03/ex03/main.o
+
+# target to build an object file
+module03/ex03/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/main.cpp.o
+.PHONY : module03/ex03/main.cpp.o
+
+module03/ex03/main.i: module03/ex03/main.cpp.i
+.PHONY : module03/ex03/main.i
+
+# target to preprocess a source file
+module03/ex03/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/main.cpp.i
+.PHONY : module03/ex03/main.cpp.i
+
+module03/ex03/main.s: module03/ex03/main.cpp.s
+.PHONY : module03/ex03/main.s
+
+# target to generate assembly for a file
+module03/ex03/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3ex03.dir/build.make CMakeFiles/3ex03.dir/module03/ex03/main.cpp.s
+.PHONY : module03/ex03/main.cpp.s
 
 module04/ex00/Animal.o: module04/ex00/Animal.cpp.o
 .PHONY : module04/ex00/Animal.o
@@ -624,6 +757,30 @@ module04/ex03/AMateria.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.s
 .PHONY : module04/ex03/AMateria.cpp.s
 
+module04/ex03/Character.o: module04/ex03/Character.cpp.o
+.PHONY : module04/ex03/Character.o
+
+# target to build an object file
+module04/ex03/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o
+.PHONY : module04/ex03/Character.cpp.o
+
+module04/ex03/Character.i: module04/ex03/Character.cpp.i
+.PHONY : module04/ex03/Character.i
+
+# target to preprocess a source file
+module04/ex03/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.i
+.PHONY : module04/ex03/Character.cpp.i
+
+module04/ex03/Character.s: module04/ex03/Character.cpp.s
+.PHONY : module04/ex03/Character.s
+
+# target to generate assembly for a file
+module04/ex03/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.s
+.PHONY : module04/ex03/Character.cpp.s
+
 module04/ex03/Cure.o: module04/ex03/Cure.cpp.o
 .PHONY : module04/ex03/Cure.o
 
@@ -672,6 +829,54 @@ module04/ex03/ICharacter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s
 .PHONY : module04/ex03/ICharacter.cpp.s
 
+module04/ex03/Ice.o: module04/ex03/Ice.cpp.o
+.PHONY : module04/ex03/Ice.o
+
+# target to build an object file
+module04/ex03/Ice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o
+.PHONY : module04/ex03/Ice.cpp.o
+
+module04/ex03/Ice.i: module04/ex03/Ice.cpp.i
+.PHONY : module04/ex03/Ice.i
+
+# target to preprocess a source file
+module04/ex03/Ice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.i
+.PHONY : module04/ex03/Ice.cpp.i
+
+module04/ex03/Ice.s: module04/ex03/Ice.cpp.s
+.PHONY : module04/ex03/Ice.s
+
+# target to generate assembly for a file
+module04/ex03/Ice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.s
+.PHONY : module04/ex03/Ice.cpp.s
+
+module04/ex03/MateriaSource.o: module04/ex03/MateriaSource.cpp.o
+.PHONY : module04/ex03/MateriaSource.o
+
+# target to build an object file
+module04/ex03/MateriaSource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o
+.PHONY : module04/ex03/MateriaSource.cpp.o
+
+module04/ex03/MateriaSource.i: module04/ex03/MateriaSource.cpp.i
+.PHONY : module04/ex03/MateriaSource.i
+
+# target to preprocess a source file
+module04/ex03/MateriaSource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.i
+.PHONY : module04/ex03/MateriaSource.cpp.i
+
+module04/ex03/MateriaSource.s: module04/ex03/MateriaSource.cpp.s
+.PHONY : module04/ex03/MateriaSource.s
+
+# target to generate assembly for a file
+module04/ex03/MateriaSource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.s
+.PHONY : module04/ex03/MateriaSource.cpp.s
+
 module04/ex03/main.o: module04/ex03/main.cpp.o
 .PHONY : module04/ex03/main.o
 
@@ -707,10 +912,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 3ex03"
 	@echo "... 4ex00"
 	@echo "... 4ex01"
 	@echo "... 4ex02"
 	@echo "... 4ex03"
+	@echo "... module03/ex03/ClapTrap.o"
+	@echo "... module03/ex03/ClapTrap.i"
+	@echo "... module03/ex03/ClapTrap.s"
+	@echo "... module03/ex03/DiamondTrap.o"
+	@echo "... module03/ex03/DiamondTrap.i"
+	@echo "... module03/ex03/DiamondTrap.s"
+	@echo "... module03/ex03/FragTrap.o"
+	@echo "... module03/ex03/FragTrap.i"
+	@echo "... module03/ex03/FragTrap.s"
+	@echo "... module03/ex03/ScavTrap.o"
+	@echo "... module03/ex03/ScavTrap.i"
+	@echo "... module03/ex03/ScavTrap.s"
+	@echo "... module03/ex03/main.o"
+	@echo "... module03/ex03/main.i"
+	@echo "... module03/ex03/main.s"
 	@echo "... module04/ex00/Animal.o"
 	@echo "... module04/ex00/Animal.i"
 	@echo "... module04/ex00/Animal.s"
@@ -768,12 +989,21 @@ help:
 	@echo "... module04/ex03/AMateria.o"
 	@echo "... module04/ex03/AMateria.i"
 	@echo "... module04/ex03/AMateria.s"
+	@echo "... module04/ex03/Character.o"
+	@echo "... module04/ex03/Character.i"
+	@echo "... module04/ex03/Character.s"
 	@echo "... module04/ex03/Cure.o"
 	@echo "... module04/ex03/Cure.i"
 	@echo "... module04/ex03/Cure.s"
 	@echo "... module04/ex03/ICharacter.o"
 	@echo "... module04/ex03/ICharacter.i"
 	@echo "... module04/ex03/ICharacter.s"
+	@echo "... module04/ex03/Ice.o"
+	@echo "... module04/ex03/Ice.i"
+	@echo "... module04/ex03/Ice.s"
+	@echo "... module04/ex03/MateriaSource.o"
+	@echo "... module04/ex03/MateriaSource.i"
+	@echo "... module04/ex03/MateriaSource.s"
 	@echo "... module04/ex03/main.o"
 	@echo "... module04/ex03/main.i"
 	@echo "... module04/ex03/main.s"

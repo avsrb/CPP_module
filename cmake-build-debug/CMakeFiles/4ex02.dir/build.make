@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artem/Coding/21/CPP_module
+CMAKE_SOURCE_DIR = /Users/mshmelly/21/CPP_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artem/Coding/21/CPP_module/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mshmelly/21/CPP_module/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/4ex02.dir/depend.make
@@ -68,68 +68,68 @@ include CMakeFiles/4ex02.dir/flags.make
 
 CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o: CMakeFiles/4ex02.dir/flags.make
 CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o: ../module04/ex02/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex02/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/main.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex02/main.cpp
 
 CMakeFiles/4ex02.dir/module04/ex02/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex02.dir/module04/ex02/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex02/main.cpp > CMakeFiles/4ex02.dir/module04/ex02/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex02/main.cpp > CMakeFiles/4ex02.dir/module04/ex02/main.cpp.i
 
 CMakeFiles/4ex02.dir/module04/ex02/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex02.dir/module04/ex02/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex02/main.cpp -o CMakeFiles/4ex02.dir/module04/ex02/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex02/main.cpp -o CMakeFiles/4ex02.dir/module04/ex02/main.cpp.s
 
 CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o: CMakeFiles/4ex02.dir/flags.make
 CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o: ../module04/ex02/Animal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex02/Animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex02/Animal.cpp
 
 CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex02/Animal.cpp > CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex02/Animal.cpp > CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.i
 
 CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex02/Animal.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex02/Animal.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Animal.cpp.s
 
 CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o: CMakeFiles/4ex02.dir/flags.make
 CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o: ../module04/ex02/Dog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex02/Dog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex02/Dog.cpp
 
 CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex02/Dog.cpp > CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex02/Dog.cpp > CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.i
 
 CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex02/Dog.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex02/Dog.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Dog.cpp.s
 
 CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o: CMakeFiles/4ex02.dir/flags.make
 CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o: ../module04/ex02/Cat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex02/Cat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex02/Cat.cpp
 
 CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex02/Cat.cpp > CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex02/Cat.cpp > CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.i
 
 CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex02/Cat.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex02/Cat.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Cat.cpp.s
 
 CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o: CMakeFiles/4ex02.dir/flags.make
 CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o: ../module04/ex02/Brain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex02/Brain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex02/Brain.cpp
 
 CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex02/Brain.cpp > CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex02/Brain.cpp > CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.i
 
 CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex02/Brain.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex02/Brain.cpp -o CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.s
 
 # Object files for target 4ex02
 4ex02_OBJECTS = \
@@ -149,7 +149,7 @@ CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.s: cmake_force
 4ex02: CMakeFiles/4ex02.dir/module04/ex02/Brain.cpp.o
 4ex02: CMakeFiles/4ex02.dir/build.make
 4ex02: CMakeFiles/4ex02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 4ex02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 4ex02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/4ex02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ CMakeFiles/4ex02.dir/clean:
 .PHONY : CMakeFiles/4ex02.dir/clean
 
 CMakeFiles/4ex02.dir/depend:
-	cd /Users/artem/Coding/21/CPP_module/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artem/Coding/21/CPP_module /Users/artem/Coding/21/CPP_module /Users/artem/Coding/21/CPP_module/cmake-build-debug /Users/artem/Coding/21/CPP_module/cmake-build-debug /Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mshmelly/21/CPP_module/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mshmelly/21/CPP_module /Users/mshmelly/21/CPP_module /Users/mshmelly/21/CPP_module/cmake-build-debug /Users/mshmelly/21/CPP_module/cmake-build-debug /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex02.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/4ex02.dir/depend
 

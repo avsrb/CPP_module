@@ -15,15 +15,15 @@
 #		module03/ex02/ScavTrap.hpp
 #		module03/ex02/FragTrap.cpp
 #		module03/ex02/FragTrap.hpp)
-#add_executable(3ex03
-#		module03/ex03/ClapTrap.cpp
-#		module03/ex03/ClapTrap.hpp
-#		module03/ex03/main.cpp
-#		module03/ex03/Makefile
-#		module03/ex03/ScavTrap.cpp
-#		module03/ex03/ScavTrap.hpp
-#		module03/ex03/FragTrap.cpp
-#		module03/ex03/FragTrap.hpp module03/ex03/DiamondTrap.cpp module03/ex03/DiamondTrap.hpp)
+add_executable(3ex03
+		module03/ex03/ClapTrap.cpp
+		module03/ex03/ClapTrap.hpp
+		module03/ex03/main.cpp
+		module03/ex03/Makefile
+		module03/ex03/ScavTrap.cpp
+		module03/ex03/ScavTrap.hpp
+		module03/ex03/FragTrap.cpp
+		module03/ex03/FragTrap.hpp module03/ex03/DiamondTrap.cpp module03/ex03/DiamondTrap.hpp)
 
 add_executable(4ex00	module04/ex00/main.cpp
 						module04/ex00/Animal.cpp
@@ -46,7 +46,7 @@ add_executable(4ex02	module04/ex02/main.cpp
 						module04/ex02/Brain.cpp
 						module04/ex02/Brain.hpp)
 
-add_executable(4ex03 module04/ex03/main.cpp module04/ex03/AMateria.cpp module04/ex03/AMateria.hpp module04/ex03/ICharacter.cpp module04/ex03/ICharacter.hpp module04/ex03/Cure.cpp module04/ex03/Cure.hpp)
+add_executable(4ex03 module04/ex03/main.cpp module04/ex03/AMateria.cpp module04/ex03/AMateria.hpp module04/ex03/ICharacter.cpp module04/ex03/ICharacter.hpp module04/ex03/Cure.cpp module04/ex03/Cure.hpp module04/ex03/Ice.cpp module04/ex03/Ice.hpp module04/ex03/Character.cpp module04/ex03/Character.hpp module04/ex03/MateriaSource.cpp module04/ex03/MateriaSource.hpp module04/ex03/IMateriaSource.hpp)
 
 
 #add_executable(test test/shoot.cpp)

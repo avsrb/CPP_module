@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artem/Coding/21/CPP_module
+CMAKE_SOURCE_DIR = /Users/mshmelly/21/CPP_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artem/Coding/21/CPP_module/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mshmelly/21/CPP_module/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/4ex03.dir/depend.make
@@ -68,62 +68,104 @@ include CMakeFiles/4ex03.dir/flags.make
 
 CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o: CMakeFiles/4ex03.dir/flags.make
 CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o: ../module04/ex03/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex03/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/main.cpp
 
 CMakeFiles/4ex03.dir/module04/ex03/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex03/main.cpp > CMakeFiles/4ex03.dir/module04/ex03/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/main.cpp > CMakeFiles/4ex03.dir/module04/ex03/main.cpp.i
 
 CMakeFiles/4ex03.dir/module04/ex03/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex03/main.cpp -o CMakeFiles/4ex03.dir/module04/ex03/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/main.cpp -o CMakeFiles/4ex03.dir/module04/ex03/main.cpp.s
 
 CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o: CMakeFiles/4ex03.dir/flags.make
 CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o: ../module04/ex03/AMateria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex03/AMateria.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/AMateria.cpp
 
 CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex03/AMateria.cpp > CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/AMateria.cpp > CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.i
 
 CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex03/AMateria.cpp -o CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/AMateria.cpp -o CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.s
 
 CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o: CMakeFiles/4ex03.dir/flags.make
 CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o: ../module04/ex03/ICharacter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex03/ICharacter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.cpp
 
 CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex03/ICharacter.cpp > CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.cpp > CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.i
 
 CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex03/ICharacter.cpp -o CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.cpp -o CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s
 
 CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o: CMakeFiles/4ex03.dir/flags.make
 CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o: ../module04/ex03/Cure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o -c /Users/artem/Coding/21/CPP_module/module04/ex03/Cure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/Cure.cpp
 
 CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/21/CPP_module/module04/ex03/Cure.cpp > CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/Cure.cpp > CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.i
 
 CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/21/CPP_module/module04/ex03/Cure.cpp -o CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/Cure.cpp -o CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s
+
+CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o: CMakeFiles/4ex03.dir/flags.make
+CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o: ../module04/ex03/Ice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/Ice.cpp
+
+CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/Ice.cpp > CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.i
+
+CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/Ice.cpp -o CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.s
+
+CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o: CMakeFiles/4ex03.dir/flags.make
+CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o: ../module04/ex03/Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/Character.cpp
+
+CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/Character.cpp > CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.i
+
+CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/Character.cpp -o CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.s
+
+CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o: CMakeFiles/4ex03.dir/flags.make
+CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o: ../module04/ex03/MateriaSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o -c /Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.cpp
+
+CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.cpp > CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.i
+
+CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.cpp -o CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.s
 
 # Object files for target 4ex03
 4ex03_OBJECTS = \
 "CMakeFiles/4ex03.dir/module04/ex03/main.cpp.o" \
 "CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o" \
 "CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o" \
-"CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o"
+"CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o" \
+"CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o" \
+"CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o" \
+"CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o"
 
 # External object files for target 4ex03
 4ex03_EXTERNAL_OBJECTS =
@@ -132,9 +174,12 @@ CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s: cmake_force
 4ex03: CMakeFiles/4ex03.dir/module04/ex03/AMateria.cpp.o
 4ex03: CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o
 4ex03: CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o
+4ex03: CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o
+4ex03: CMakeFiles/4ex03.dir/module04/ex03/Character.cpp.o
+4ex03: CMakeFiles/4ex03.dir/module04/ex03/MateriaSource.cpp.o
 4ex03: CMakeFiles/4ex03.dir/build.make
 4ex03: CMakeFiles/4ex03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 4ex03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 4ex03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/4ex03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +191,6 @@ CMakeFiles/4ex03.dir/clean:
 .PHONY : CMakeFiles/4ex03.dir/clean
 
 CMakeFiles/4ex03.dir/depend:
-	cd /Users/artem/Coding/21/CPP_module/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artem/Coding/21/CPP_module /Users/artem/Coding/21/CPP_module /Users/artem/Coding/21/CPP_module/cmake-build-debug /Users/artem/Coding/21/CPP_module/cmake-build-debug /Users/artem/Coding/21/CPP_module/cmake-build-debug/CMakeFiles/4ex03.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mshmelly/21/CPP_module/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mshmelly/21/CPP_module /Users/mshmelly/21/CPP_module /Users/mshmelly/21/CPP_module/cmake-build-debug /Users/mshmelly/21/CPP_module/cmake-build-debug /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/4ex03.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/4ex03.dir/depend
 

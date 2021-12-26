@@ -1,8 +1,11 @@
 #include "DiamondTrap.hpp"
+#include "FragTrap.hpp"
+#include "ScavTrap.hpp"
+#include "ClapTrap.hpp"
+
 
 int	main()
 {
-
 		ClapTrap Tom("Tom");
 		ScavTrap Liza("Liza");
 		FragTrap Max("Max");
