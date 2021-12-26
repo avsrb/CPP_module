@@ -247,7 +247,58 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="3ex00">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/3ex00" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 3ex00"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3ex00/fast">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/3ex00" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 3ex00/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex00/ClapTrap.cpp">
+			<Option target="3ex00"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex00/ClapTrap.hpp">
+			<Option target="3ex00"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex00/main.cpp">
+			<Option target="3ex00"/>
+		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module03/ex03/ClapTrap.cpp">
 			<Option target="3ex03"/>
 		</Unit>
@@ -399,9 +450,6 @@
 			<Option target="4ex03"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.hpp">
-			<Option target="4ex03"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/IMateriaSource.hpp">
 			<Option target="4ex03"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/Ice.cpp">

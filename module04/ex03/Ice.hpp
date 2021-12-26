@@ -6,7 +6,7 @@ class Ice : public AMateria
 {
 public:
 	Ice();
-	virtual ~Ice();
+	~Ice();
 	Ice(const Ice &I);
 	Ice& operator=(const Ice &I);
 	virtual AMateria*	clone() const;

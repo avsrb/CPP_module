@@ -22,7 +22,7 @@ Character::Character(const Character &C):	m_name(C.m_name),
 	}
 }
 
-Character &Character::operator=(const Character &C)
+Character& Character::operator=(const Character &C)
 {
 	if (this == &C)
 		return (*this);

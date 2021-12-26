@@ -19,17 +19,18 @@ Ice &Ice::operator=(const Ice &I)
 {
 	if (this == &I)
 		return (*this);
-	return (*this)
+	return (*this);
 }
 
 AMateria *Ice::clone() const
 {
-	AMateria *clone = new
-	return ;
+//	AMateria *clone = new Ice(*this);
+//	return clone;
+	return (new Ice());
 }
 
 void Ice::use(ICharacter &target)
 {
-	std::cout	<<	"* heals "		<< target.getName()
-				<<	"'s wounds *"	<< std::endl;
+	std::cout	<<	"* shoots an ice bolt at "	<<	target.getName()
+				 <<			" *"				<<	std::endl;
 }
