@@ -56,8 +56,7 @@ add_executable(4ex03	./module04/ex03/AMateria.cpp
 						./module04/ex03/Character.cpp
 						./module04/ex03/Cure.cpp
 						./module04/ex03/Ice.cpp
-						./module04/ex03/ICharacter.cpp
-						./module04/ex03/main.cpp
+		./module04/ex03/main.cpp
 						./module04/ex03/MateriaSource.cpp)
 
 

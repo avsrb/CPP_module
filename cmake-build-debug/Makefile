@@ -866,30 +866,6 @@ module04/ex03/Cure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.s
 .PHONY : module04/ex03/Cure.cpp.s
 
-module04/ex03/ICharacter.o: module04/ex03/ICharacter.cpp.o
-.PHONY : module04/ex03/ICharacter.o
-
-# target to build an object file
-module04/ex03/ICharacter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o
-.PHONY : module04/ex03/ICharacter.cpp.o
-
-module04/ex03/ICharacter.i: module04/ex03/ICharacter.cpp.i
-.PHONY : module04/ex03/ICharacter.i
-
-# target to preprocess a source file
-module04/ex03/ICharacter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.i
-.PHONY : module04/ex03/ICharacter.cpp.i
-
-module04/ex03/ICharacter.s: module04/ex03/ICharacter.cpp.s
-.PHONY : module04/ex03/ICharacter.s
-
-# target to generate assembly for a file
-module04/ex03/ICharacter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4ex03.dir/build.make CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.s
-.PHONY : module04/ex03/ICharacter.cpp.s
-
 module04/ex03/Ice.o: module04/ex03/Ice.cpp.o
 .PHONY : module04/ex03/Ice.o
 
@@ -1063,9 +1039,6 @@ help:
 	@echo "... module04/ex03/Cure.o"
 	@echo "... module04/ex03/Cure.i"
 	@echo "... module04/ex03/Cure.s"
-	@echo "... module04/ex03/ICharacter.o"
-	@echo "... module04/ex03/ICharacter.i"
-	@echo "... module04/ex03/ICharacter.s"
 	@echo "... module04/ex03/Ice.o"
 	@echo "... module04/ex03/Ice.i"
 	@echo "... module04/ex03/Ice.s"

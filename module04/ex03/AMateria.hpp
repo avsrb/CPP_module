@@ -13,11 +13,11 @@ protected:
 	std::string	m_type;
 public:
 	AMateria();
-	AMateria& operator=(const AMateria &AM);
-	AMateria(std::string const & type);
-	AMateria(const AMateria &AM);
 	virtual ~AMateria();
-	std::string const & getType() const; //Returns the m_materia type
+	AMateria& operator=(const AMateria &AM);
+	AMateria(const AMateria &AM);
+	AMateria(std::string const & type);
+	std::string const & getType() const;
 	virtual AMateria* clone() const = 0;
 	virtual void use(ICharacter& target) = 0;
 };

@@ -446,12 +446,6 @@
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/Cure.hpp">
 			<Option target="4ex03"/>
 		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.cpp">
-			<Option target="4ex03"/>
-		</Unit>
-		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.hpp">
-			<Option target="4ex03"/>
-		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module04/ex03/Ice.cpp">
 			<Option target="4ex03"/>
 		</Unit>

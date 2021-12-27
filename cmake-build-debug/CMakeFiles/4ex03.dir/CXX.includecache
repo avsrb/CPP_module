@@ -14,18 +14,6 @@ iostream
 ICharacter.hpp
 /Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.hpp
 
-/Users/mshmelly/21/CPP_module/module04/ex03/Character.hpp
-ICharacter.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.hpp
-Ice.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/Ice.hpp
-Cure.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/Cure.hpp
-
-/Users/mshmelly/21/CPP_module/module04/ex03/Cure.hpp
-AMateria.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/AMateria.hpp
-
 /Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.hpp
 string
 -
@@ -38,10 +26,6 @@ AMateria.hpp
 AMateria.hpp
 /Users/mshmelly/21/CPP_module/module04/ex03/AMateria.hpp
 
-/Users/mshmelly/21/CPP_module/module04/ex03/Ice.hpp
-AMateria.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/AMateria.hpp
-
 /Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.cpp
 MateriaSource.hpp
 /Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.hpp
@@ -49,22 +33,4 @@ MateriaSource.hpp
 /Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.hpp
 IMateriaSource.hpp
 /Users/mshmelly/21/CPP_module/module04/ex03/IMateriaSource.hpp
-
-/Users/mshmelly/21/CPP_module/module04/ex03/main.cpp
-iostream
--
-AMateria.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/AMateria.hpp
-Cure.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/Cure.hpp
-Ice.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/Ice.hpp
-ICharacter.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/ICharacter.hpp
-Character.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/Character.hpp
-IMateriaSource.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/IMateriaSource.hpp
-MateriaSource.hpp
-/Users/mshmelly/21/CPP_module/module04/ex03/MateriaSource.hpp
 

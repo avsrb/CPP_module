@@ -17,10 +17,6 @@ CMakeFiles/4ex03.dir/module04/ex03/Cure.cpp.o: \
  ../module04/ex03/Cure.cpp \
  ../module04/ex03/Cure.hpp \
  ../module04/ex03/ICharacter.hpp
-CMakeFiles/4ex03.dir/module04/ex03/ICharacter.cpp.o: \
- ../module04/ex03/AMateria.hpp \
- ../module04/ex03/ICharacter.cpp \
- ../module04/ex03/ICharacter.hpp
 CMakeFiles/4ex03.dir/module04/ex03/Ice.cpp.o: \
  ../module04/ex03/AMateria.hpp \
  ../module04/ex03/ICharacter.hpp \
