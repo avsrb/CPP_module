@@ -7,8 +7,9 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		=
-SRCS		= main.cpp
+HEADERS		= AMateria.hpp Character.hpp Cure.hpp Ice.hpp ICharacter.hpp IMateriaSource.hpp MateriaSource.hpp
+
+SRCS		= main.cpp AMateria.cpp Character.cpp Cure.cpp Ice.cpp MateriaSource.cpp
 
 OBJS		= $(SRCS:.cpp=.o)
 
