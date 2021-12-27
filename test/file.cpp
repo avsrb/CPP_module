@@ -10,7 +10,7 @@ int main ()
 
 	string path = "../myFile.txt";
 	ofstream fout;
-	fout.open(path);
+	fout.open(path, ofstream::app);
 	if (!fout.is_open())
 	{
 		cout << "Ошибка открытия файла" << endl;
