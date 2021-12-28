@@ -3,9 +3,9 @@
 Bureaucrat::Bureaucrat(const std::string &name, int grade) : _name(name), _grade(grade)
 {
 	if (grade < 1)
-		throw GradeTooHighException(" constructor error");
+		throw GradeTooHighException("constructor error");
 	else if (grade > 150)
-		throw GradeTooLowException(" constructor error");
+		throw GradeTooLowException("constructor error");
 }
 
 Bureaucrat::Bureaucrat()

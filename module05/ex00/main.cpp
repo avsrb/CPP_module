@@ -8,9 +8,18 @@ int	main(void)
 	try
 	{
 		Bureaucrat two("Alex", 150);
-		Bureaucrat two1("Alex1", 151);
+//		Bureaucrat two1("Alex1", 151);
 		std::cout << two << "\n";
 		two.increment();
+		two.increment();
+		two.increment();
+		two.decrement();
+		two.decrement();
+		two.decrement();
+		two.decrement();
+		two.decrement();
+		two.decrement();
+		two.decrement();
 		two.decrement();
 
 
@@ -34,7 +43,8 @@ int	main(void)
 	}
 	catch(const Bureaucrat::GradeTooLowException &e)
 	{
-		std::cerr << e._error << " : " << e.what() << std::endl;
+		std::cerr << e.what() << std::endl;
+//		std::cerr << e._error << " : " << e.what() << std::endl;
 	}
 	catch(...)
 	{
