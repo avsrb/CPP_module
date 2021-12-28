@@ -7,8 +7,8 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		= Animal.hpp Cat.hpp Dog.hpp
-SRCS		= main.cpp Animal.cpp Cat.cpp Dog.cpp
+HEADERS		= Animal.hpp Cat.hpp Dog.hpp Brain.hpp
+SRCS		= main.cpp Animal.cpp Cat.cpp Dog.cpp Brain.cpp
 
 OBJS		= $(SRCS:.cpp=.o)
 

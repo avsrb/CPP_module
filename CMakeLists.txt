@@ -1,6 +1,6 @@
 
-add_executable(try_catch test/try_catch.cpp)
-add_executable(file test/file.cpp)
+#add_executable(try_catch test/try_catch.cpp)
+#add_executable(file test/file.cpp)
 #add_executable(3ex00 module03/ex00/ClapTrap.cpp module03/ex00/ClapTrap.hpp module03/ex00/main.cpp)
 #add_executable(3ex01
 #		module03/ex01/ClapTrap.cpp
@@ -63,4 +63,5 @@ add_executable(4ex03	./module04/ex03/AMateria.cpp
 						./module04/ex03/MateriaSource.cpp)
 
 
-#add_executable(test test/shoot.cpp)
+add_executable(5ex00		./module05/ex00/main.cpp
+							./module05/ex00/Bureaucrat.cpp)

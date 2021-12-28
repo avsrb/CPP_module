@@ -4,21 +4,51 @@
 
 using namespace std;
 
+//int main ()
+//{
+//	setlocale(LC_ALL, "ru");
+//
+//	string path = "../myFile.txt";
+//	ofstream fout;
+//	fout.open(path, ofstream::app);
+//	if (!fout.is_open())
+//	{
+//		cout << "Ошибка открытия файла" << endl;
+//	}
+//	else
+//	{
+//		cout << "Введите число!" << endl;
+//		int a;
+//		cin >> a;
+//		fout << a << endl;
+//	}
+//	fout.close();
+//
+//}
+
 int main ()
 {
 	setlocale(LC_ALL, "ru");
-
 	string path = "../myFile.txt";
-	ofstream fout;
-	fout.open(path, ofstream::app);
-	if (!fout.is_open())
+
+	ifstream fin;
+	fin.open(path);
+	if (!fin.is_open())
 	{
 		cout << "Ошибка открытия файла" << endl;
 	}
 	else
 	{
-		fout << "Это наши данные!";
+		cout << "Файл открыт!" << endl;
+		string str;
+		while (!fin.eof())
+		{
+//			str = "";
+			getline(fin, str);
+			cout << str << endl;
+		}
 	}
-	fout.close();
+	fin.close();
 
+	return 0;
 }
