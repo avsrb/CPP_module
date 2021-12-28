@@ -1,11 +1,11 @@
 #include "Bureaucrat.hpp"
 
-Bureaucrat::Bureaucrat(const std::string &name, int grade) : _name(name)
+Bureaucrat::Bureaucrat(const std::string &name, int grade) : _name(name), _grade(grade)
 {
 	if (grade < 1)
-		throw
+		throw GradeTooHighException(" constructor error");
 	else if (grade > 150)
-		throw
+		throw GradeTooLowException(" constructor error");
 }
 
 Bureaucrat::Bureaucrat()
@@ -18,7 +18,7 @@ Bureaucrat::~Bureaucrat()
 //	std::cout << "Destructor called! (Bureaucrat)" << std::endl;
 }
 
-Bureaucrat::Bureaucrat(const Bureaucrat &other)
+Bureaucrat::Bureaucrat(const Bureaucrat &other) : _name(other.getName()), _grade(other.getGrade())
 {
 //	std::cout << "Copy constructor called! (Bureaucrat)" << std::endl;
 }
@@ -29,9 +29,8 @@ Bureaucrat &Bureaucrat::operator=(const Bureaucrat &other)
 		return (*this);
 	const_cast<std::string&>(this->_name) = other.getName();
 	this->_grade = other.getGrade();
-	return *this;
+	return (*this);
 }
-
 
 const std::string &Bureaucrat::getName() const
 {
@@ -43,8 +42,47 @@ int Bureaucrat::getGrade() const
 	return _grade;
 }
 
+void Bureaucrat::increment(void)
+{
+	if (_grade == 1)
+		throw Bureaucrat::GradeTooHighException("Bureaucrat " +_name + " increment error");
+	_grade--;
+}
+
+void Bureaucrat::decrement(void)
+{
+	if (_grade == 150)
+		throw Bureaucrat::GradeTooLowException("Bureaucrat " +_name + " decrement error");
+	_grade++;
+
+}
+
 std::ostream &operator<<(std::ostream &os, const Bureaucrat &bureaucrat)
 {
-	os << "\033[31m" << bureaucrat._name << " bureaucrat grade \033[32m" << bureaucrat._grade << "\033[0m";
+	os << "Bureaucrat " << bureaucrat._name << " is his grade " << bureaucrat._grade;
 	return os;
 }
+
+Bureaucrat::GradeTooHighException::GradeTooHighException(const std::string &error) : _error(error)
+{}
+
+Bureaucrat::GradeTooHighException::~GradeTooHighException() throw()
+{
+}
+
+Bureaucrat::GradeTooLowException::GradeTooLowException(const std::string &error) : _error(error)
+{}
+
+Bureaucrat::GradeTooLowException::~GradeTooLowException() throw()
+{
+}
+
+const char *Bureaucrat::GradeTooHighException::what() const throw()
+{
+	return (std::string("GradeTooHighException " + this->_error)).c_str();
+}
+
+const char *Bureaucrat::GradeTooLowException::what() const throw()
+{
+	return (std::string("GradeTooLowException " + this->_error)).c_str();
+	}
