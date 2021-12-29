@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /Users/mshmelly/21/CPP_module/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named 5ex02
+
+# Build rule for target.
+5ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5ex02
+.PHONY : 5ex02
+
+# fast build rule for target.
+5ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/build
+.PHONY : 5ex02/fast
 
 #=============================================================================
 # Target rules for targets named 5ex01
@@ -208,6 +221,7 @@ module05/ex01/Bureaucrat.o: module05/ex01/Bureaucrat.cpp.o
 
 # target to build an object file
 module05/ex01/Bureaucrat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/Bureaucrat.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o
 .PHONY : module05/ex01/Bureaucrat.cpp.o
 
@@ -216,6 +230,7 @@ module05/ex01/Bureaucrat.i: module05/ex01/Bureaucrat.cpp.i
 
 # target to preprocess a source file
 module05/ex01/Bureaucrat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/Bureaucrat.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.i
 .PHONY : module05/ex01/Bureaucrat.cpp.i
 
@@ -224,6 +239,7 @@ module05/ex01/Bureaucrat.s: module05/ex01/Bureaucrat.cpp.s
 
 # target to generate assembly for a file
 module05/ex01/Bureaucrat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/Bureaucrat.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.s
 .PHONY : module05/ex01/Bureaucrat.cpp.s
 
@@ -232,6 +248,7 @@ module05/ex01/Form.o: module05/ex01/Form.cpp.o
 
 # target to build an object file
 module05/ex01/Form.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/Form.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o
 .PHONY : module05/ex01/Form.cpp.o
 
@@ -240,6 +257,7 @@ module05/ex01/Form.i: module05/ex01/Form.cpp.i
 
 # target to preprocess a source file
 module05/ex01/Form.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/Form.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.i
 .PHONY : module05/ex01/Form.cpp.i
 
@@ -248,6 +266,7 @@ module05/ex01/Form.s: module05/ex01/Form.cpp.s
 
 # target to generate assembly for a file
 module05/ex01/Form.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/Form.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s
 .PHONY : module05/ex01/Form.cpp.s
 
@@ -256,6 +275,7 @@ module05/ex01/main.o: module05/ex01/main.cpp.o
 
 # target to build an object file
 module05/ex01/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/main.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o
 .PHONY : module05/ex01/main.cpp.o
 
@@ -264,6 +284,7 @@ module05/ex01/main.i: module05/ex01/main.cpp.i
 
 # target to preprocess a source file
 module05/ex01/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/main.cpp.i
 .PHONY : module05/ex01/main.cpp.i
 
@@ -272,8 +293,81 @@ module05/ex01/main.s: module05/ex01/main.cpp.s
 
 # target to generate assembly for a file
 module05/ex01/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex01/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/main.cpp.s
 .PHONY : module05/ex01/main.cpp.s
+
+module05/ex02/PresidentialPardonForm.o: module05/ex02/PresidentialPardonForm.cpp.o
+.PHONY : module05/ex02/PresidentialPardonForm.o
+
+# target to build an object file
+module05/ex02/PresidentialPardonForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/PresidentialPardonForm.cpp.o
+.PHONY : module05/ex02/PresidentialPardonForm.cpp.o
+
+module05/ex02/PresidentialPardonForm.i: module05/ex02/PresidentialPardonForm.cpp.i
+.PHONY : module05/ex02/PresidentialPardonForm.i
+
+# target to preprocess a source file
+module05/ex02/PresidentialPardonForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/PresidentialPardonForm.cpp.i
+.PHONY : module05/ex02/PresidentialPardonForm.cpp.i
+
+module05/ex02/PresidentialPardonForm.s: module05/ex02/PresidentialPardonForm.cpp.s
+.PHONY : module05/ex02/PresidentialPardonForm.s
+
+# target to generate assembly for a file
+module05/ex02/PresidentialPardonForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/PresidentialPardonForm.cpp.s
+.PHONY : module05/ex02/PresidentialPardonForm.cpp.s
+
+module05/ex02/RobotomyRequestForm.o: module05/ex02/RobotomyRequestForm.cpp.o
+.PHONY : module05/ex02/RobotomyRequestForm.o
+
+# target to build an object file
+module05/ex02/RobotomyRequestForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/RobotomyRequestForm.cpp.o
+.PHONY : module05/ex02/RobotomyRequestForm.cpp.o
+
+module05/ex02/RobotomyRequestForm.i: module05/ex02/RobotomyRequestForm.cpp.i
+.PHONY : module05/ex02/RobotomyRequestForm.i
+
+# target to preprocess a source file
+module05/ex02/RobotomyRequestForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/RobotomyRequestForm.cpp.i
+.PHONY : module05/ex02/RobotomyRequestForm.cpp.i
+
+module05/ex02/RobotomyRequestForm.s: module05/ex02/RobotomyRequestForm.cpp.s
+.PHONY : module05/ex02/RobotomyRequestForm.s
+
+# target to generate assembly for a file
+module05/ex02/RobotomyRequestForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/RobotomyRequestForm.cpp.s
+.PHONY : module05/ex02/RobotomyRequestForm.cpp.s
+
+module05/ex02/ShrubberyCreationForm.o: module05/ex02/ShrubberyCreationForm.cpp.o
+.PHONY : module05/ex02/ShrubberyCreationForm.o
+
+# target to build an object file
+module05/ex02/ShrubberyCreationForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/ShrubberyCreationForm.cpp.o
+.PHONY : module05/ex02/ShrubberyCreationForm.cpp.o
+
+module05/ex02/ShrubberyCreationForm.i: module05/ex02/ShrubberyCreationForm.cpp.i
+.PHONY : module05/ex02/ShrubberyCreationForm.i
+
+# target to preprocess a source file
+module05/ex02/ShrubberyCreationForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/ShrubberyCreationForm.cpp.i
+.PHONY : module05/ex02/ShrubberyCreationForm.cpp.i
+
+module05/ex02/ShrubberyCreationForm.s: module05/ex02/ShrubberyCreationForm.cpp.s
+.PHONY : module05/ex02/ShrubberyCreationForm.s
+
+# target to generate assembly for a file
+module05/ex02/ShrubberyCreationForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex02.dir/build.make CMakeFiles/5ex02.dir/module05/ex02/ShrubberyCreationForm.cpp.s
+.PHONY : module05/ex02/ShrubberyCreationForm.cpp.s
 
 test/try.o: test/try.cpp.o
 .PHONY : test/try.o
@@ -309,6 +403,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 5ex00"
 	@echo "... 5ex01"
+	@echo "... 5ex02"
 	@echo "... try"
 	@echo "... module05/ex00/Bureaucrat.o"
 	@echo "... module05/ex00/Bureaucrat.i"
@@ -325,6 +420,15 @@ help:
 	@echo "... module05/ex01/main.o"
 	@echo "... module05/ex01/main.i"
 	@echo "... module05/ex01/main.s"
+	@echo "... module05/ex02/PresidentialPardonForm.o"
+	@echo "... module05/ex02/PresidentialPardonForm.i"
+	@echo "... module05/ex02/PresidentialPardonForm.s"
+	@echo "... module05/ex02/RobotomyRequestForm.o"
+	@echo "... module05/ex02/RobotomyRequestForm.i"
+	@echo "... module05/ex02/RobotomyRequestForm.s"
+	@echo "... module05/ex02/ShrubberyCreationForm.o"
+	@echo "... module05/ex02/ShrubberyCreationForm.i"
+	@echo "... module05/ex02/ShrubberyCreationForm.s"
 	@echo "... test/try.o"
 	@echo "... test/try.i"
 	@echo "... test/try.s"

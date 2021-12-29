@@ -17,11 +17,43 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="5ex02">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/5ex02" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 5ex02"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5ex02/fast">
+				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/5ex02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 5ex02/fast"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -121,6 +153,16 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mshmelly/21/CPP_module/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="try">
 				<Option output="/Users/mshmelly/21/CPP_module/cmake-build-debug/try" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mshmelly/21/CPP_module/cmake-build-debug"/>
@@ -174,19 +216,42 @@
 			<Option target="5ex00"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex01/Bureaucrat.cpp">
+			<Option target="5ex02"/>
 			<Option target="5ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex01/Bureaucrat.hpp">
+			<Option target="5ex02"/>
 			<Option target="5ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex01/Form.cpp">
+			<Option target="5ex02"/>
 			<Option target="5ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex01/Form.hpp">
+			<Option target="5ex02"/>
 			<Option target="5ex01"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex01/main.cpp">
+			<Option target="5ex02"/>
 			<Option target="5ex01"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex02/PresidentialPardonForm.cpp">
+			<Option target="5ex02"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex02/PresidentialPardonForm.hpp">
+			<Option target="5ex02"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex02/RobotomyRequestForm.cpp">
+			<Option target="5ex02"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex02/RobotomyRequestForm.hpp">
+			<Option target="5ex02"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex02/ShrubberyCreationForm.cpp">
+			<Option target="5ex02"/>
+		</Unit>
+		<Unit filename="/Users/mshmelly/21/CPP_module/module05/ex02/ShrubberyCreationForm.hpp">
+			<Option target="5ex02"/>
 		</Unit>
 		<Unit filename="/Users/mshmelly/21/CPP_module/test/try.cpp">
 			<Option target="try"/>

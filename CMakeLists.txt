@@ -69,3 +69,6 @@ add_executable(5ex00		./module05/ex00/main.cpp
 add_executable(5ex01		./module05/ex01/main.cpp
 							./module05/ex01/Bureaucrat.cpp
 							module05/ex01/Form.cpp module05/ex01/Form.hpp)
+add_executable(5ex02		./module05/ex01/main.cpp
+							./module05/ex01/Bureaucrat.cpp
+							module05/ex01/Form.cpp module05/ex01/Form.hpp module05/ex02/ShrubberyCreationForm.cpp module05/ex02/ShrubberyCreationForm.hpp module05/ex02/RobotomyRequestForm.cpp module05/ex02/RobotomyRequestForm.hpp module05/ex02/PresidentialPardonForm.cpp module05/ex02/PresidentialPardonForm.hpp)
