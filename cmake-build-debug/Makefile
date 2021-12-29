@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 5ex01
+
+# Build rule for target.
+5ex01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5ex01
+.PHONY : 5ex01
+
+# fast build rule for target.
+5ex01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/build
+.PHONY : 5ex01/fast
+
+#=============================================================================
 # Target rules for targets named 5ex00
 
 # Build rule for target.
@@ -190,6 +203,78 @@ module05/ex00/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex00.dir/build.make CMakeFiles/5ex00.dir/module05/ex00/main.cpp.s
 .PHONY : module05/ex00/main.cpp.s
 
+module05/ex01/Bureaucrat.o: module05/ex01/Bureaucrat.cpp.o
+.PHONY : module05/ex01/Bureaucrat.o
+
+# target to build an object file
+module05/ex01/Bureaucrat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o
+.PHONY : module05/ex01/Bureaucrat.cpp.o
+
+module05/ex01/Bureaucrat.i: module05/ex01/Bureaucrat.cpp.i
+.PHONY : module05/ex01/Bureaucrat.i
+
+# target to preprocess a source file
+module05/ex01/Bureaucrat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.i
+.PHONY : module05/ex01/Bureaucrat.cpp.i
+
+module05/ex01/Bureaucrat.s: module05/ex01/Bureaucrat.cpp.s
+.PHONY : module05/ex01/Bureaucrat.s
+
+# target to generate assembly for a file
+module05/ex01/Bureaucrat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.s
+.PHONY : module05/ex01/Bureaucrat.cpp.s
+
+module05/ex01/Form.o: module05/ex01/Form.cpp.o
+.PHONY : module05/ex01/Form.o
+
+# target to build an object file
+module05/ex01/Form.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o
+.PHONY : module05/ex01/Form.cpp.o
+
+module05/ex01/Form.i: module05/ex01/Form.cpp.i
+.PHONY : module05/ex01/Form.i
+
+# target to preprocess a source file
+module05/ex01/Form.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.i
+.PHONY : module05/ex01/Form.cpp.i
+
+module05/ex01/Form.s: module05/ex01/Form.cpp.s
+.PHONY : module05/ex01/Form.s
+
+# target to generate assembly for a file
+module05/ex01/Form.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s
+.PHONY : module05/ex01/Form.cpp.s
+
+module05/ex01/main.o: module05/ex01/main.cpp.o
+.PHONY : module05/ex01/main.o
+
+# target to build an object file
+module05/ex01/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o
+.PHONY : module05/ex01/main.cpp.o
+
+module05/ex01/main.i: module05/ex01/main.cpp.i
+.PHONY : module05/ex01/main.i
+
+# target to preprocess a source file
+module05/ex01/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/main.cpp.i
+.PHONY : module05/ex01/main.cpp.i
+
+module05/ex01/main.s: module05/ex01/main.cpp.s
+.PHONY : module05/ex01/main.s
+
+# target to generate assembly for a file
+module05/ex01/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5ex01.dir/build.make CMakeFiles/5ex01.dir/module05/ex01/main.cpp.s
+.PHONY : module05/ex01/main.cpp.s
+
 test/try.o: test/try.cpp.o
 .PHONY : test/try.o
 
@@ -223,6 +308,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 5ex00"
+	@echo "... 5ex01"
 	@echo "... try"
 	@echo "... module05/ex00/Bureaucrat.o"
 	@echo "... module05/ex00/Bureaucrat.i"
@@ -230,6 +316,15 @@ help:
 	@echo "... module05/ex00/main.o"
 	@echo "... module05/ex00/main.i"
 	@echo "... module05/ex00/main.s"
+	@echo "... module05/ex01/Bureaucrat.o"
+	@echo "... module05/ex01/Bureaucrat.i"
+	@echo "... module05/ex01/Bureaucrat.s"
+	@echo "... module05/ex01/Form.o"
+	@echo "... module05/ex01/Form.i"
+	@echo "... module05/ex01/Form.s"
+	@echo "... module05/ex01/main.o"
+	@echo "... module05/ex01/main.i"
+	@echo "... module05/ex01/main.s"
 	@echo "... test/try.o"
 	@echo "... test/try.i"
 	@echo "... test/try.s"

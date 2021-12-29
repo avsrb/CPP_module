@@ -66,3 +66,6 @@ add_executable(try test/try.cpp)
 
 add_executable(5ex00		./module05/ex00/main.cpp
 							./module05/ex00/Bureaucrat.cpp)
+add_executable(5ex01		./module05/ex01/main.cpp
+							./module05/ex01/Bureaucrat.cpp
+							module05/ex01/Form.cpp module05/ex01/Form.hpp)
