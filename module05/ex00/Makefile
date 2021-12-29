@@ -7,9 +7,8 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		=
-
-SRCS		= main.cpp
+HEADERS		= Bureaucrat.hpp
+SRCS		= main.cpp Bureaucrat.cpp
 
 OBJS		= $(SRCS:.cpp=.o)
 
