@@ -3,7 +3,8 @@
 
 CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o: \
  ../module05/ex01/Bureaucrat.cpp \
- ../module05/ex01/Bureaucrat.hpp
+ ../module05/ex01/Bureaucrat.hpp \
+ ../module05/ex01/Form.hpp
 CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o: \
  ../module05/ex01/Bureaucrat.hpp \
  ../module05/ex01/Form.cpp \

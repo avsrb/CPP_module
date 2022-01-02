@@ -14,6 +14,10 @@
 # define BLUE		"\033[34m"
 # define AQUA		"\033[36m"
 
+#include "Form.hpp"
+
+class Form;
+
 class Bureaucrat
 {
 private:
@@ -31,13 +35,15 @@ public:
 	int					getGrade() const;
 	void				increment(void);
 	void				decrement(void);
+	bool				signForm(Form &F);
+	
 
 	class GradeTooHighException : public std::exception
 	{
 		private:
+			std::string _error;
 
 		public:
-			std::string _error;
 			GradeTooHighException(const std::string &error);
 			~GradeTooHighException() throw();
 			const char *what() const throw();	//Мы должны указать, какие типы ошибок разрешено выдавать этой функции,
@@ -45,16 +51,16 @@ public:
 
 	};
 
-		class GradeTooLowException : public std::exception
-		{
-		private:
+	class GradeTooLowException : public std::exception
+	{
+	private:
+		std::string _error;
 
-		public:
-			std::string _error;
-			GradeTooLowException(const std::string &error);
-			~GradeTooLowException() throw();
+	public:
+		GradeTooLowException(const std::string &error);
+		~GradeTooLowException() throw();
 
-			const char *what() const throw();
+		const char *what() const throw();
 	};
 	friend std::ostream &operator<<(std::ostream &os, const Bureaucrat &bureaucrat);
 };

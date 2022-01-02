@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mshmelly/21/CPP_module/module05/ex01/Bureaucrat.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex01/Bureaucrat.cpp.o"
-  "/Users/mshmelly/21/CPP_module/module05/ex01/Form.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex01/Form.cpp.o"
-  "/Users/mshmelly/21/CPP_module/module05/ex01/main.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex01/main.cpp.o"
-  "/Users/mshmelly/21/CPP_module/module05/ex02/PresidentialPardonForm.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex02/PresidentialPardonForm.cpp.o"
-  "/Users/mshmelly/21/CPP_module/module05/ex02/RobotomyRequestForm.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex02/RobotomyRequestForm.cpp.o"
-  "/Users/mshmelly/21/CPP_module/module05/ex02/ShrubberyCreationForm.cpp" "/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex02/ShrubberyCreationForm.cpp.o"
+  "/Users/artem/Coding/1/module05/ex01/Bureaucrat.cpp" "/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex01/Bureaucrat.cpp.o"
+  "/Users/artem/Coding/1/module05/ex01/Form.cpp" "/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex01/Form.cpp.o"
+  "/Users/artem/Coding/1/module05/ex01/main.cpp" "/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex01/main.cpp.o"
+  "/Users/artem/Coding/1/module05/ex02/PresidentialPardonForm.cpp" "/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex02/PresidentialPardonForm.cpp.o"
+  "/Users/artem/Coding/1/module05/ex02/RobotomyRequestForm.cpp" "/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex02/RobotomyRequestForm.cpp.o"
+  "/Users/artem/Coding/1/module05/ex02/ShrubberyCreationForm.cpp" "/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir/module05/ex02/ShrubberyCreationForm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mshmelly/21/CPP_module
+CMAKE_SOURCE_DIR = /Users/artem/Coding/1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mshmelly/21/CPP_module/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artem/Coding/1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/5ex01.dir/depend.make
@@ -68,42 +68,42 @@ include CMakeFiles/5ex01.dir/flags.make
 
 CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o: CMakeFiles/5ex01.dir/flags.make
 CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o: ../module05/ex01/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o -c /Users/mshmelly/21/CPP_module/module05/ex01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5ex01.dir/module05/ex01/main.cpp.o -c /Users/artem/Coding/1/module05/ex01/main.cpp
 
 CMakeFiles/5ex01.dir/module05/ex01/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5ex01.dir/module05/ex01/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module05/ex01/main.cpp > CMakeFiles/5ex01.dir/module05/ex01/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/1/module05/ex01/main.cpp > CMakeFiles/5ex01.dir/module05/ex01/main.cpp.i
 
 CMakeFiles/5ex01.dir/module05/ex01/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5ex01.dir/module05/ex01/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module05/ex01/main.cpp -o CMakeFiles/5ex01.dir/module05/ex01/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/1/module05/ex01/main.cpp -o CMakeFiles/5ex01.dir/module05/ex01/main.cpp.s
 
 CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o: CMakeFiles/5ex01.dir/flags.make
 CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o: ../module05/ex01/Bureaucrat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o -c /Users/mshmelly/21/CPP_module/module05/ex01/Bureaucrat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.o -c /Users/artem/Coding/1/module05/ex01/Bureaucrat.cpp
 
 CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module05/ex01/Bureaucrat.cpp > CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/1/module05/ex01/Bureaucrat.cpp > CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.i
 
 CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module05/ex01/Bureaucrat.cpp -o CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/1/module05/ex01/Bureaucrat.cpp -o CMakeFiles/5ex01.dir/module05/ex01/Bureaucrat.cpp.s
 
 CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o: CMakeFiles/5ex01.dir/flags.make
 CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o: ../module05/ex01/Form.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o -c /Users/mshmelly/21/CPP_module/module05/ex01/Form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artem/Coding/1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o -c /Users/artem/Coding/1/module05/ex01/Form.cpp
 
 CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mshmelly/21/CPP_module/module05/ex01/Form.cpp > CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/artem/Coding/1/module05/ex01/Form.cpp > CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.i
 
 CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mshmelly/21/CPP_module/module05/ex01/Form.cpp -o CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/artem/Coding/1/module05/ex01/Form.cpp -o CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s
 
 # Object files for target 5ex01
 5ex01_OBJECTS = \
@@ -119,7 +119,7 @@ CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.s: cmake_force
 5ex01: CMakeFiles/5ex01.dir/module05/ex01/Form.cpp.o
 5ex01: CMakeFiles/5ex01.dir/build.make
 5ex01: CMakeFiles/5ex01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 5ex01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artem/Coding/1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 5ex01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/5ex01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/5ex01.dir/clean:
 .PHONY : CMakeFiles/5ex01.dir/clean
 
 CMakeFiles/5ex01.dir/depend:
-	cd /Users/mshmelly/21/CPP_module/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mshmelly/21/CPP_module /Users/mshmelly/21/CPP_module /Users/mshmelly/21/CPP_module/cmake-build-debug /Users/mshmelly/21/CPP_module/cmake-build-debug /Users/mshmelly/21/CPP_module/cmake-build-debug/CMakeFiles/5ex01.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/artem/Coding/1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artem/Coding/1 /Users/artem/Coding/1 /Users/artem/Coding/1/cmake-build-debug /Users/artem/Coding/1/cmake-build-debug /Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/5ex01.dir/depend
 

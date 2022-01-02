@@ -81,10 +81,10 @@ Bureaucrat::GradeTooLowException::~GradeTooLowException() throw()
 
 const char *Bureaucrat::GradeTooHighException::what() const throw()
 {
-	return (std::string("GradeTooHighException " + this->_error)).c_str();
+	return this->_error.c_str();
 }
 
 const char *Bureaucrat::GradeTooLowException::what() const throw()
 {
-	return (std::string("GradeTooLowException " + this->_error)).c_str();
-	}
+	return this->_error.c_str();
+}

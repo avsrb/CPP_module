@@ -5,6 +5,8 @@
 #include <ostream>
 #include "Bureaucrat.hpp"
 
+class Bureaucrat;
+
 class Form
 {
 private:
@@ -32,9 +34,9 @@ public:
 	class GradeTooHighException : public std::exception
 	{
 	private:
+		std::string _error;
 
 	public:
-		std::string _error;
 		GradeTooHighException(const std::string &error);
 		~GradeTooHighException() throw();
 		const char *what() const throw();	//Мы должны указать, какие типы ошибок разрешено выдавать этой функции,
@@ -45,9 +47,9 @@ public:
 	class GradeTooLowException : public std::exception
 	{
 	private:
+		std::string _error;
 
 	public:
-		std::string _error;
 		GradeTooLowException(const std::string &error);
 		~GradeTooLowException() throw();
 
