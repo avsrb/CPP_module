@@ -83,10 +83,28 @@ Bureaucrat::GradeTooLowException::~GradeTooLowException() throw()
 
 const char *Bureaucrat::GradeTooHighException::what() const throw()
 {
-	return (std::string("GradeTooHighException " + this->_error)).c_str();
+//	std::string str = "GradeTooHighException " + this->_error;
+	return this->_error.c_str();
 }
 
 const char *Bureaucrat::GradeTooLowException::what() const throw()
 {
-	return (std::string("GradeTooLowException " + this->_error)).c_str();
+//	std::string str = "GradeTooLowException " + this->_error;
+	return this->_error.c_str();
+}
+
+bool Bureaucrat::signForm(Form &F)
+{
+	try
+	{
+		F.beSigned(*this);
+		std::cout << BLUE <<  this->getName() << " signs " << F.getName() << DEFAULT << std::endl;
+		return true;
 	}
+	catch (const Form::GradeTooLowException &e)
+	{
+		std::cout << RED << this->getName() + " cannot sign " + F.getName() + " because below grade" + DEFAULT << std::endl;
+		return true;
+	}
+	return false;
+}

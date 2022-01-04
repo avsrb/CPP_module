@@ -7,8 +7,18 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		= Bureaucrat.hpp Form.hpp
-SRCS		= main.cpp Bureaucrat.cpp Form.cpp
+HEADERS		= ./Bureaucrat.hpp\
+              ./Form.hpp\
+              ./PresidentialPardonForm.hpp\
+              ./RobotomyRequestForm.hpp\
+              ./ShrubberyCreationForm.hpp\
+
+SRCS		= ./Bureaucrat.cpp\
+              ./Form.cpp\
+              ./main.cpp\
+              ./PresidentialPardonForm.cpp\
+              ./RobotomyRequestForm.cpp\
+              ./ShrubberyCreationForm.cpp\
 
 OBJS		= $(SRCS:.cpp=.o)
 

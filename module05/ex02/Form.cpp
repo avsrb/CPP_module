@@ -46,16 +46,12 @@ int Form::getGradeDo() const
 
 void Form::beSigned(const Bureaucrat &bur)
 {
-	if (this->_gradeSigned >= bur.getGrade())
-	{
-		this->_signed = true;
-		std::cout << BLUE <<  bur.getName() << " signs " << this->getName() << DEFAULT << std::endl;
-	}
-	else
+	if (bur.getGrade() > this->_gradeSigned)
 	{
 		throw Form::GradeTooLowException(std::string(bur.getName() + " cannot sign "
-										+ this->getName() + " because below grade" + DEFAULT).c_str());
+													 + this->getName() + " because below grade" + DEFAULT).c_str());
 	}
+	_signed = true;
 }
 
 Form &Form::operator=(const Form &f)
@@ -79,7 +75,8 @@ Form::GradeTooHighException::~GradeTooHighException() throw()
 
 const char *Form::GradeTooHighException::what() const throw()
 {
-	return (std::string("GradeTooHighException " + this->_error)).c_str();
+//	return (std::string("GradeTooHighException " + this->_error)).c_str();
+	return this->_error.c_str();
 
 }
 
@@ -94,12 +91,13 @@ Form::GradeTooLowException::~GradeTooLowException() throw()
 
 const char *Form::GradeTooLowException::what() const throw()
 {
-	return (std::string("GradeTooLowException " + this->_error)).c_str();
+//	return (std::string("GradeTooLowException " + this->_error)).c_str();
+	return this->_error.c_str();
 }
 
 std::ostream &operator<<(std::ostream &os, const Form &form)
 {
-	os << "_name: " << form._name << " _signed: " << form._signed << " _gradeSigned: " << form._gradeSigned
+	os << "_name: " << form._name << " _signed: "  << (form._signed ? GREEN : RED) << form._signed << DEFAULT << " _gradeSigned: " << form._gradeSigned
 	   << " _gradeDo: " << form._gradeDo;
 	return os;
 }
