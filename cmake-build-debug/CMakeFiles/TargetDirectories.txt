@@ -1,6 +1,0 @@
-/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex02.dir
-/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex01.dir
-/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/5ex00.dir
-/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/artem/Coding/1/cmake-build-debug/CMakeFiles/try.dir
