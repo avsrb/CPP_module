@@ -15,21 +15,21 @@ private:
 	int					_gradeSigned; // оценка, необходимая для его подписания
 	int					_gradeDo; // оценка, необходимая для его выполнения.
 
-public:
+protected:
 	Form();
+	Form(const Form &f);
+	Form& operator=(Form const &f);
 	Form(const std::string &name, int gradeSigned, int gradeDo);
-	Form(Form const &f);
-	~Form();
 
-	Form	&operator=(Form const &f);
+public:
+	virtual ~Form();
 
 	const std::string&	getName() const;
 	bool				isSigned() const;
 	int					getGradeSigned() const;
 	int					getGradeDo() const;
 	void 				beSigned(const Bureaucrat &bur);
-
-	friend std::ostream &operator<<(std::ostream &os, const Form &form);
+	virtual void 		execute(const Bureaucrat &executor) const;
 
 	class GradeTooHighException : public std::exception
 	{
@@ -41,7 +41,6 @@ public:
 		~GradeTooHighException() throw();
 		const char *what() const throw();	//Мы должны указать, какие типы ошибок разрешено выдавать этой функции,
 		// если оставить пустым, никакие типы ошибок не могут быть выданы из этой функции.
-
 	};
 
 	class GradeTooLowException : public std::exception
@@ -52,9 +51,19 @@ public:
 	public:
 		GradeTooLowException(const std::string &error);
 		~GradeTooLowException() throw();
-
 		const char *what() const throw();
 	};
+
+	class FormIsNotSignedException
+	{
+	private:
+		std::string _error;
+	public:
+		FormIsNotSignedException(std::string const &error = "FormIsNotSignedException");
+		~FormIsNotSignedException();
+		const char *what() const throw();
+	};
+	friend std::ostream &operator<<(std::ostream &os, const Form &form);
 };
 
 

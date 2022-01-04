@@ -10,17 +10,14 @@ Bureaucrat::Bureaucrat(const std::string &name, int grade) : _name(name), _grade
 
 Bureaucrat::Bureaucrat()
 {
-//	std::cout << "Default constructor called! (Bureaucrat)" << std::endl;
 }
 
 Bureaucrat::~Bureaucrat()
 {
-//	std::cout << "Destructor called! (Bureaucrat)" << std::endl;
 }
 
 Bureaucrat::Bureaucrat(const Bureaucrat &other) : _name(other.getName()), _grade(other.getGrade())
 {
-//	std::cout << "Copy constructor called! (Bureaucrat)" << std::endl;
 }
 
 Bureaucrat &Bureaucrat::operator=(const Bureaucrat &other)

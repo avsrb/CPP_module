@@ -1,6 +1,9 @@
 #include "Form.hpp"
 
-Form::Form() : _name("HZ"), _signed(false), _gradeSigned(0), _gradeDo(0)
+Form::Form()
+{}
+
+Form::~Form()
 {}
 
 Form::Form(const std::string &name, int gradeSigned, int gradeDo) : _name(name)
@@ -17,11 +20,6 @@ Form::Form(const std::string &name, int gradeSigned, int gradeDo) : _name(name)
 Form::Form(const Form &f)
 {
 	*this = f;
-}
-
-Form::~Form()
-{
-
 }
 
 const std::string &Form::getName() const
@@ -75,9 +73,7 @@ Form::GradeTooHighException::~GradeTooHighException() throw()
 
 const char *Form::GradeTooHighException::what() const throw()
 {
-//	return (std::string("GradeTooHighException " + this->_error)).c_str();
 	return this->_error.c_str();
-
 }
 
 Form::GradeTooLowException::GradeTooLowException(const std::string &error) : _error(error)
@@ -91,7 +87,6 @@ Form::GradeTooLowException::~GradeTooLowException() throw()
 
 const char *Form::GradeTooLowException::what() const throw()
 {
-//	return (std::string("GradeTooLowException " + this->_error)).c_str();
 	return this->_error.c_str();
 }
 
@@ -100,4 +95,36 @@ std::ostream &operator<<(std::ostream &os, const Form &form)
 	os << "_name: " << form._name << " _signed: "  << (form._signed ? GREEN : RED) << form._signed << DEFAULT << " _gradeSigned: " << form._gradeSigned
 	   << " _gradeDo: " << form._gradeDo;
 	return os;
+}
+
+void	Form::execute(const Bureaucrat &executor) const
+{
+//	if (_signed == false)
+//		throw Form::FormIsNotSignedException();
+//	else
+//	{
+//		if (executor.getGrade() > _gradeDo)
+//			throw Form::GradeTooLowException("below grade");
+//		else
+//		{
+//			std::cout << executor.getName() << " execute " << _name << std::endl;
+//		}
+//	}
+	if (executor.getGrade() > _gradeDo)
+		throw Bureaucrat::GradeTooLowException("below grade");
+	else if (!_signed)
+		throw FormIsNotSignedException();
+}
+
+const char *Form::FormIsNotSignedException::what() const throw()
+{
+	return this->_error.c_str();
+}
+
+Form::FormIsNotSignedException::FormIsNotSignedException(std::string const &error) : _error(error)
+{
+
+}
+Form::FormIsNotSignedException::~FormIsNotSignedException()
+{
 }

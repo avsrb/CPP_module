@@ -88,27 +88,6 @@ int	main(void)
 		}
 	}
 	std::cout << std::endl;
-
-//	std::cout << GREEN
-//	<< "                    _.|._" << std::endl
-//	<< "                      |" << std::endl
-//	<< "                     / \\" << std::endl
-//	<< "                    /   \\" << std::endl
-//	<< "                   /  o.~\\" << std::endl
-//	<< "                  !_.~   _!" << std::endl
-//	<< "                  /      o\\" << std::endl
-//	<< "                 / J  ~    \\" << std::endl
-//	<< "                !_      J  _!" << std::endl
-//	<< "                /   o      ~\\" << std::endl
-//	<< "               /  J   .~~    \\" << std::endl
-//	<< "              !_..~~       o _!" << std::endl
-//	<< "              /  ..       J   \\" << std::endl
-//	<< "             /  o    ~~..      \\" << std::endl
-//	<< "            !_      J      ~~.._!" << std::endl
-//	<< "            /  o       J  ..~~  \\" << std::endl
-//	<< "           /      ..~~~~~~    o  \\" << std::endl
-//	<< "          !:::::::::::::::::::::::!" << std::endl
-//	<< "                  \\______/ " << std::endl;
 	return (0);
 }
 
