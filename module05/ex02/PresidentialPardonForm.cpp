@@ -8,7 +8,7 @@ PresidentialPardonForm::~PresidentialPardonForm()
 {
 }
 
-PresidentialPardonForm::PresidentialPardonForm(const std::string target) : Form("ShrubberyCreationForm", 25, 5), _target(target)
+PresidentialPardonForm::PresidentialPardonForm(const std::string target) : Form("PresidentialPardonForm", 25, 5), _target(target)
 {
 }
 

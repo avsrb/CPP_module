@@ -11,7 +11,7 @@ int	main(void)
 		try
 		{
 			Bureaucrat B1("bureaucrat_1", 1);
-			Form *F1 = I.makeForm("PresidentialPardonForm", "Bender");
+			Form *F1 = I.makeForm("ShrubberyCreationForm", "Bender");
 			std::cout << B1 << std::endl;
 			std::cout << *F1 << std::endl;
 			B1.signForm(*F1);
