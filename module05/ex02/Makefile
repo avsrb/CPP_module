@@ -35,5 +35,6 @@ clean:
 
 fclean:		clean
 			$(RM) $(NAME)
+			$(RM) ShrubberyCreationForm_shrubbery
 
 re:			fclean $(NAME)

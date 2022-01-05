@@ -28,10 +28,11 @@ void RobotomyRequestForm::execute(const Bureaucrat &executor) const
 {
 	Form::execute(executor);
 	std::cout << "Makes some drilling noises" << std::endl;
-	if ((rand() % 100 > 50))
-		std::cout << _target<< " has been robotomized successfully" << std::endl;
+	srand(time(NULL));
+	if ((rand() % 2) + 1 ==  2)
+		std::cout << YELLOW << _target<< " has been robotomized successfully" << DEFAULT << std::endl;
 	else
-		std::cout << "something went wrong..." << std::endl;
+		std::cout << RED << "something went wrong..." << DEFAULT << std::endl;
 }
 
 const std::string &RobotomyRequestForm::getTarget() const

@@ -99,19 +99,8 @@ std::ostream &operator<<(std::ostream &os, const Form &form)
 
 void	Form::execute(const Bureaucrat &executor) const
 {
-//	if (_signed == false)
-//		throw Form::FormIsNotSignedException();
-//	else
-//	{
-//		if (executor.getGrade() > _gradeDo)
-//			throw Form::GradeTooLowException("below grade");
-//		else
-//		{
-//			std::cout << executor.getName() << " execute " << _name << std::endl;
-//		}
-//	}
 	if (executor.getGrade() > _gradeDo)
-		throw Bureaucrat::GradeTooLowException("below grade");
+		throw Form::GradeTooLowException("below grade");
 	else if (!_signed)
 		throw FormIsNotSignedException();
 }

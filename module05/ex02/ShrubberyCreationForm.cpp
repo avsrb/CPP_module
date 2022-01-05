@@ -9,7 +9,7 @@ ShrubberyCreationForm::~ShrubberyCreationForm()
 {
 }
 
-ShrubberyCreationForm::ShrubberyCreationForm(const std::string target) : Form("ShrubberyCreationForm", 145, 137), _target(target)
+ShrubberyCreationForm::ShrubberyCreationForm(const std::string target) : Form(target, 145, 137), _target(target)
 {
 }
 
@@ -33,7 +33,7 @@ void ShrubberyCreationForm::execute(const Bureaucrat &executor) const
 	file.open(_target + "_shrubbery");
 	if (!file.fail())
 	{
-		file << GREEN
+		file
 			 << "                    _.|._" << std::endl
 			 << "                      |" << std::endl
 			 << "                     / \\" << std::endl
