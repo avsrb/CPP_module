@@ -1,3 +1,8 @@
+#
+#add_executable(0ex01 module00/ex01/Contact.cpp
+#		module00/ex01/main.cpp
+#		module00/ex01/PhoneBook.cpp
+#	)
 
 #add_executable(try_catch test/try_catch.cpp)
 #add_executable(file test/file.cpp)
@@ -70,14 +75,19 @@
 #							./module05/ex01/Bureaucrat.cpp
 #							module05/ex01/Form.cpp module05/ex01/Form.hpp)
 
-add_executable(5ex03		module05/ex03/main.cpp
-							module05/ex03/Bureaucrat.cpp
-							module05/ex03/Form.cpp module05/ex01/Form.hpp
-							module05/ex03/ShrubberyCreationForm.cpp
-							module05/ex03/ShrubberyCreationForm.hpp
-							module05/ex03/RobotomyRequestForm.cpp
-							module05/ex03/RobotomyRequestForm.hpp
-							module05/ex03/PresidentialPardonForm.cpp
-							module05/ex03/PresidentialPardonForm.hpp
-							module05/ex03/Intern.cpp
-							module05/ex03/Intern.hpp)
+#add_executable(5ex03		module05/ex03/main.cpp
+#							module05/ex03/Bureaucrat.cpp
+#							module05/ex03/Form.cpp module05/ex01/Form.hpp
+#							module05/ex03/ShrubberyCreationForm.cpp
+#							module05/ex03/ShrubberyCreationForm.hpp
+#							module05/ex03/RobotomyRequestForm.cpp
+#							module05/ex03/RobotomyRequestForm.hpp
+#							module05/ex03/PresidentialPardon-orm.cpp
+#							module05/ex03/PresidentialPardonForm.hpp
+#							module05/ex03/Intern.cpp
+#							module05/ex03/Intern.hpp)
+
+#add_executable(6ex00		module06/ex00/main.cpp)
+#add_executable(6ex01		module06/ex01/main.cpp)
+#add_executable(6ex02		module06/ex02/main.cpp)
+add_executable(7ex00		module07/ex00/main.cpp)
