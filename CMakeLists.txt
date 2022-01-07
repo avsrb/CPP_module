@@ -91,3 +91,4 @@
 #add_executable(6ex01		module06/ex01/main.cpp)
 #add_executable(6ex02		module06/ex02/main.cpp)
 add_executable(7ex00		module07/ex00/main.cpp)
+add_executable(7ex01		module07/ex01/main.cpp)
