@@ -17,7 +17,7 @@ public:
 	{};
 	Array(const Array<T> &A) : _TArray(new T[A._size]()), _size(A._size)
 	{
-		for (int i = 0; i < A._size; ++i)
+		for (unsigned int i = 0; i < A._size; ++i)
 		{
 			_TArray[i] = A._TArray[i];
 		}
@@ -28,11 +28,22 @@ public:
 			return (*this);
 		_size = A._size;
 		_TArray = new T[_size];
-		for (int i = 0; i < A._size; ++i)
+		for (unsigned int i = 0; i < A._size; ++i)
 			_TArray[i] = A._TArray[i];
 		return (*this);
+	}
+	T& operator[](unsigned int index)
+	{
+		if (index > _size)
+			throw std::out_of_range("index_out_of_range");
+		return (_TArray[index]);
+	}
+	unsigned int size() const
+	{
+		return _size;
 	}
 };
 
 //std::out_of_range
-//Определяет исключение, которое должно быть брошено в том случае, когда происходит выход за пределы допустимого диапазона значений объекта.
+//Определяет исключение, которое должно быть брошено в том случае,
+//когда происходит выход за пределы допустимого диапазона значений объекта.
