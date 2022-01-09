@@ -94,4 +94,4 @@
 #add_executable(7ex01		module07/ex01/main.cpp)
 #add_executable(7ex02		module07/ex02/main.cpp)
 #add_executable(test			test/07_02.cpp)
-add_executable(8ex00		module08/ex00/main.cpp module08/ex00/easyfind.hpp)
+add_executable(8ex001		module08/ex01/main.cpp module08/ex01/Span.cpp module08/ex01/Span.hpp)
