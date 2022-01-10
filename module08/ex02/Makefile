@@ -7,9 +7,9 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		=	easyfind.hpp\
+HEADERS		=	MutantStack.hpp\
 
-SRCS		=	main.cpp\
+SRCS		=	main.cpp MutantStack.cpp\
 
 OBJS		= $(SRCS:.cpp=.o)
 
