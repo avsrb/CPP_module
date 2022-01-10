@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 #define DEFAULT		"\033[0m"
 #define RED			"\033[31m"

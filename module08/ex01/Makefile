@@ -7,9 +7,9 @@ CC 			= clang++
 CFLAGS 		= -Wall -Wextra -Werror -c -std=c++98
 RM 			= rm -rf
 
-HEADERS		=
+HEADERS		=	Span.hpp
 
-SRCS		=	./main.cpp\
+SRCS		=	main.cpp Span.cpp
 
 OBJS		= $(SRCS:.cpp=.o)
 
