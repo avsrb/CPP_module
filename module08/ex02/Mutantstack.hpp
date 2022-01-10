@@ -1,14 +1,13 @@
-//
-// Created by Melinda Shmelly on 1/10/22.
-//
+#ifndef MUTANTSTACK_HPP
+#define MUTANTSTACK_HPP
 
-#ifndef CPP_MODULE_MUTANTSTACK_HPP
-#define CPP_MODULE_MUTANTSTACK_HPP
+#include <stack>
+#include <iostream>
 
-
-class Mutantstack {
+class Mutantstack
+{
 
 };
 
 
-#endif //CPP_MODULE_MUTANTSTACK_HPP
+#endif

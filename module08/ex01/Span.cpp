@@ -73,7 +73,8 @@ void Span::addNumber(std::vector<int>::iterator start, std::vector<int>::iterato
 	_array.insert(_array.begin(), start, finish);
 }
 
-std::ostream &operator<<(std::ostream &os, const Span &span) {
+std::ostream &operator<<(std::ostream &os, const Span &span)
+{
 	for (unsigned int i = 0; i < span.getArray().size(); ++i)
 	{
 		os << span.getArray().at(i) << ' ';
