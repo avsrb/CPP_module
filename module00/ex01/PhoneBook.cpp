@@ -57,8 +57,8 @@ void	PhoneBook::Search()
 			std::cout << "Enter an index contact: ";
 			if (!(std::cin >> i) || !(i >= 1 && i <= m_size))
 			{
-//				if (std::cin.eof())
-//					exit(0);
+				if (std::cin.eof())
+					exit(0);
 				std::cin.clear();
 				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 				std::cout << "The input makes no sense, define a relevant behavior!\n";
